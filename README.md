@@ -147,6 +147,7 @@ This architecture represents the way I approach applied AI: **data first, intell
 
 ## Education
 
+- **MBA em Ciência de Dados, Analytics e Inteligência Artificial — USP/Esalq**
 - **Tecnologia em Banco de Dados — FIAP** · 2020–2022
 
 ### Certifications
