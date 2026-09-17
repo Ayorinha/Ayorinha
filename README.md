@@ -147,8 +147,15 @@ This architecture represents the way I approach applied AI: **data first, intell
 
 ## Education
 
-- **MBA em Ciência de Dados, Analytics e Inteligência Artificial — USP/Esalq** · em curso
-- **Tecnologia em Banco de Dados — FIAP**
+- **Tecnologia em Banco de Dados — FIAP** · 2020–2022
+
+### Certifications
+
+- **AWS Certified Generative AI Developer – Professional** — Amazon Web Services (AWS) · Ago 2026
+- **Eng. de Dados e Fundamentos em Ciência de Dados** — FIAP · Gold Certified · Dez 2021
+- **Infraestrutura de Banco de Dados** — FIAP · Gold Certified · Dez 2020
+- **Administração de BD e Analista de BI** — FIAP · Bronze Certified · Dez 2021
+- **Modelagem de Banco de Dados** — FIAP · Silver Certified · Jun 2020
 
 ---
 
