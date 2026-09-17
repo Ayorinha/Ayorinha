@@ -1,12 +1,12 @@
 # Anderson Leon Ayora
 
-### Data Scientist · AI Engineer · Data Architect
+### AI Engineer · Data Scientist · Data Architect
 
 **Applied AI · Document Intelligence · Intelligent Automation · Data & Analytics · Machine Learning**
 
 I build production-oriented systems that turn real operational problems into measurable, auditable and maintainable software.
 
-My work sits at the intersection of **Data Science, Artificial Intelligence, automation and software engineering**, with a strong focus on document processing, OCR, analytics, workflow automation and browser-based business systems.
+My work sits at the intersection of **Artificial Intelligence, Data Science, automation and software engineering**, with emphasis on document processing, OCR, analytics, workflow automation, data pipelines and AI-enabled systems.
 
 ---
 
@@ -15,19 +15,19 @@ My work sits at the intersection of **Data Science, Artificial Intelligence, aut
 **Ayorai** is my engineering identity for applied systems built around data, automation and AI.
 
 ```text
-                    AYORAI
-                       │
-       ┌───────────────┼───────────────┐
-       │               │               │
-   APPLIED AI       DATA           AUTOMATION
-       │               │               │
- Document AI      Analytics          RPA
- OCR / LLM        ML / BI            Workflows
- Validation       Processing         Operations
-       │               │               │
-       └───────────────┼───────────────┘
-                       │
-                Production Systems
+                         AYORAI
+                            │
+            ┌───────────────┼───────────────┐
+            │               │               │
+        APPLIED AI        DATA         AUTOMATION
+            │               │               │
+     Document AI       Analytics          RPA
+     OCR / LLM         ML / BI          Workflows
+     Validation       Pipelines         Operations
+            │               │               │
+            └───────────────┼───────────────┘
+                            │
+                    Production Systems
 ```
 
 ## Core Stack
@@ -46,26 +46,41 @@ My work sits at the intersection of **Data Science, Artificial Intelligence, aut
 
 ---
 
-## Featured Projects
+## Selected Projects
 
-| Project | Focus |
+| Repository | Focus |
 |---|---|
-| **Ayorai Document Intelligence** | OCR, document extraction, validation and intelligent comparison |
-| **Ayorai Financial Analytics** | Financial analytics, reconciliation and executive reporting |
-| **Ayorai State Automation** | RPA, operational workflows and multi-state process control |
-| **Ayorai PIX Document Processor** | PDF processing, QR generation and batch automation |
-| **Global Tech News AI** | Automated technology-news ingestion, translation and publishing |
-| **Ayorai OCR Engineering** | OCR experimentation across Python and C# |
-| **Ayorai Machine Learning Lab** | Machine-learning experiments and reproducible studies |
-| **IEPTB Intelligent Architecture** | Research and reference architecture for multi-agent AI |
+| **global-tech-news-ai** | Automated data ingestion, translation, scheduled pipelines and static deployment |
+| **project-ayorai-financial-control** | Financial control, reconciliation concepts and analytics with synthetic data |
+| **hybrid-data-management-rpa-pipeline** | Data management and RPA pipeline architecture |
+| **hybrid-data-architecture-rpa-pipeline** | Data architecture and automation pipeline design |
+| **OCR-Python** | OCR engineering with OpenCV, Tesseract and document export |
+| **OCRWinRT-CSharp** | Offline OCR experimentation with C# and Windows Runtime |
+| **K-Means-Clustering---Iris-Dataset** | Reproducible machine-learning fundamentals |
+| **sonic-mvp-game** | Game development learning project created during Hub Games training |
 
-> Projects involving real organizations or operational workflows are published only with synthetic, anonymized or non-sensitive examples. Confidential business data, credentials and private documents are not part of this portfolio.
+The portfolio prioritizes projects that demonstrate **engineering decisions, reproducibility, automation, AI/data capabilities and practical problem solving** rather than quantity of repositories.
+
+---
+
+## Portfolio Standards
+
+Public repositories are organized to be understandable and safe to evaluate:
+
+- Real organizational data is not published.
+- Confidential documents, credentials and API keys are excluded.
+- Demonstrations use synthetic, anonymized or public data.
+- READMEs explain the problem, architecture, stack and limitations.
+- Production workflows are preserved when documentation is improved.
+- Experimental projects are clearly identified as experiments or learning projects.
+
+Projects involving real operational environments are represented through **sanitized architecture, synthetic examples and technical documentation**, not private business information.
 
 ---
 
 ## Engineering Approach
 
-I prefer solutions that are **simple to operate, transparent to audit and practical to deploy**. Depending on the problem, that can mean a browser-based application, a structured Excel data layer, a Python pipeline, an RPA workflow, or an AI orchestration architecture.
+I prefer solutions that are **simple to operate, transparent to audit and practical to deploy**. Depending on the problem, that can mean a browser application, a structured data layer, a Python pipeline, an RPA workflow, an OCR system or an AI orchestration architecture.
 
 The goal is not to add AI for its own sake. The goal is to design reliable systems where **data, automation and intelligence work together**.
 
@@ -80,8 +95,8 @@ The goal is not to add AI for its own sake. The goal is to design reliable syste
 
 ## Connect
 
-- **LinkedIn:** [linkedin.com/in/anderson-leon-ayora](https://www.linkedin.com/in/anderson-leon-ayora)
-- **GitHub:** [github.com/Ayorinha](https://github.com/Ayorinha)
+- **LinkedIn:** https://www.linkedin.com/in/anderson-leon-ayora
+- **GitHub:** https://github.com/Ayorinha
 
 ---
 
