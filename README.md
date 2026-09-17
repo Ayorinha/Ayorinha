@@ -45,35 +45,39 @@ My engineering focus is on systems that are **useful, measurable, auditable and 
 
 ### 🚀 Applied AI
 
-**AYORAI** — Applied AI architecture for intelligent systems, orchestration, document processing and automation.
+**[AYORAI](https://github.com/Ayorinha/ayorai)** — Applied AI architecture for intelligent systems, orchestration, document processing and automation.
 
-**OCR-Python** — OCR pipeline experimentation with Python, OpenCV and Tesseract, focused on document extraction.
+**[OCR-Python](https://github.com/Ayorinha/OCR-Python)** — OCR pipeline experimentation with Python, OpenCV and Tesseract, focused on document extraction.
 
 ### 🛡️ AI Security & Defensive AI
 
-**AyorAI Agent Defense Lab** — Open-source sandbox for adversarial evaluation of defensive AI agents using synthetic sensitive-data and financial workflows. Red Agent → Sandbox → Blue Agent → Evaluation, with policy enforcement, data redaction, authorization controls, human-approval gates and audit traces.
+**[AyorAI Agent Defense Lab](https://github.com/Ayorinha/global-tech-news-ai/tree/main/labs/ayorai-agent-defense-lab)** — End-to-end open-source security laboratory for adversarial evaluation of defensive AI agents in synthetic sensitive-data and financial workflows.
+
+**Security architecture:** Red Agent → Policy Boundary → Synthetic Financial Sandbox → Blue Agent → Evaluation → Audit.
+
+The lab demonstrates **prompt-injection simulation, authorization boundaries, RBAC, tool allowlists, transaction limits, human-approval gates, output redaction, synthetic ledger state, hash-linked audit events, benchmark metrics, local-LLM integration and reproducible CI tests**. The Red Agent is strictly a controlled simulation engine; it does not attack external systems.
 
 ### 🤖 Intelligent Automation
 
-**hybrid-data-management-rpa-pipeline** — Data management and RPA pipeline concepts for operational workflows.
+**[hybrid-data-management-rpa-pipeline](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)** — Data management and RPA pipeline concepts for operational workflows.
 
-**hybrid-data-architecture-rpa-pipeline** — Architecture patterns connecting data, automation and operational processing.
+**[hybrid-data-architecture-rpa-pipeline](https://github.com/Ayorinha/hybrid-data-architecture-rpa-pipeline)** — Architecture patterns connecting data, automation and operational processing.
 
 ### 📊 Data & Analytics
 
-**project-ayorai-financial-control** — Financial control, reconciliation and analytical workflows using synthetic data.
+**[project-ayorai-financial-control](https://github.com/Ayorinha/project-ayorai-financial-control)** — Financial control, reconciliation and analytical workflows using synthetic data.
 
-**K-Means-Clustering---Iris-Dataset** — Reproducible machine-learning fundamentals and clustering experimentation.
+**[K-Means-Clustering---Iris-Dataset](https://github.com/Ayorinha/K-Means-Clustering---Iris-Dataset)** — Reproducible machine-learning fundamentals and clustering experimentation.
 
 ### 🛰️ AI Intelligence
 
-**global-tech-news-ai** — Automated technology intelligence pipeline with RSS ingestion, processing, translation, structured data and GitHub Actions.
+**[global-tech-news-ai](https://github.com/Ayorinha/global-tech-news-ai)** — Automated technology intelligence pipeline with RSS ingestion, processing, translation, structured data and GitHub Actions.
 
 **AyorAI Tools** — Curated AI tools directory for discovering models, platforms, developer tools, automation and creative AI.
 
 ### 🎮 Learning Lab
 
-**sonic-mvp-game** — Game-development learning project created during Hub Games training. Kept separate from the professional AI portfolio to demonstrate continuous learning and experimentation.
+**[sonic-mvp-game](https://github.com/Ayorinha/sonic-mvp-game)** — Game-development learning project created during Hub Games training. Kept separate from the professional AI portfolio to demonstrate continuous learning and experimentation.
 
 ---
 
