@@ -2,41 +2,42 @@
 
 ## AI Engineer · Data Scientist · Applied AI
 
-**Agentic Systems · RAG · Document Intelligence · Intelligent Automation · Data Engineering · Machine Learning**
+**Agentic Systems · AI Security · RAG · Document Intelligence · Intelligent Automation · Data Engineering · Machine Learning**
 
-I design and build practical AI systems that connect **data, software, automation and intelligence** to solve real operational problems.
+I design and build practical AI systems that connect **data, software, automation, security and intelligence** to solve real operational problems.
 
-My engineering focus is on systems that are **useful, measurable, auditable and maintainable** — from data pipelines and OCR to LLM applications, RAG, AI agents and intelligent workflows.
+My engineering focus is on systems that are **useful, measurable, auditable and maintainable** — from data pipelines and OCR to LLM applications, RAG, AI agents, defensive AI and intelligent workflows.
 
 ---
 
 ## Ayorai Engineering
 
-**Ayorai** is my engineering identity and portfolio for applied artificial intelligence, data and automation.
+**Ayorai** is my engineering identity and portfolio for applied artificial intelligence, data, automation and AI security.
 
 ```text
                          AYORAI
                             │
-          ┌─────────────────┼─────────────────┐
-          │                 │                 │
-       APPLIED AI         DATA          AUTOMATION
-          │                 │                 │
-   Document Intelligence  Analytics          RPA
-   OCR · NLP · LLM        ML · BI        Workflows
-   RAG · Agents           Pipelines      Operations
-          │                 │                 │
-          └─────────────────┼─────────────────┘
+       ┌────────────────────┼────────────────────┐
+       │                    │                    │
+    APPLIED AI             DATA              SECURITY
+       │                    │                    │
+ Document AI            Analytics          Agent Defense
+ OCR · NLP · LLM        ML · BI            Red / Blue AI
+ RAG · Agents           Pipelines          Policy · Audit
+       │                    │                    │
+       └────────────────────┼────────────────────┘
                             │
-                    Production Mindset
+                    AUTOMATION / SYSTEMS
 ```
 
 ### Engineering principles
 
 - **Privacy by Design** — public projects use public, synthetic or anonymized data.
+- **Security by Design** — agents operate with bounded authority, explicit policies and audit trails.
 - **Reproducibility** — versioned code, deterministic workflows and documented setup.
 - **Auditability** — traceable processing, explicit assumptions and observable outputs.
 - **Production Mindset** — prototypes are designed with maintainability and deployment in mind.
-- **Practical AI** — AI is applied where it creates measurable value, not simply because it is available.
+- **Practical AI** — AI is applied where it creates measurable value.
 
 ---
 
@@ -47,6 +48,10 @@ My engineering focus is on systems that are **useful, measurable, auditable and 
 **AYORAI** — Applied AI architecture for intelligent systems, orchestration, document processing and automation.
 
 **OCR-Python** — OCR pipeline experimentation with Python, OpenCV and Tesseract, focused on document extraction.
+
+### 🛡️ AI Security & Defensive AI
+
+**AyorAI Agent Defense Lab** — Open-source sandbox for adversarial evaluation of defensive AI agents using synthetic sensitive-data and financial workflows. Red Agent → Sandbox → Blue Agent → Evaluation, with policy enforcement, data redaction, authorization controls, human-approval gates and audit traces.
 
 ### 🤖 Intelligent Automation
 
@@ -78,6 +83,7 @@ My engineering focus is on systems that are **useful, measurable, auditable and 
 |---|---|
 | Languages | Python · SQL · JavaScript · HTML/CSS · C# |
 | AI / ML | LLMs · RAG · Agents · NLP · OCR · Machine Learning |
+| AI Security | Adversarial Evaluation · Agent Security · Policy Engines · Red/Blue Testing · Auditability |
 | Data | pandas · NumPy · SQL · Power BI · ETL / ELT |
 | Automation | RPA · Selenium · Power Automate · Workflow Automation |
 | APIs / Backend | FastAPI · REST · JSON |
@@ -105,6 +111,9 @@ VALIDATION / PROCESSING
      └──────────────► LLM / RAG / AGENTS
                               │
                               ▼
+                       POLICY / SECURITY
+                              │
+                              ▼
                        ORCHESTRATION
                               │
                               ▼
@@ -114,7 +123,7 @@ VALIDATION / PROCESSING
                        AUDITABLE OUTPUT
 ```
 
-This architecture represents the way I approach applied AI: **data first, intelligence where useful, automation where repeatability matters, and observability throughout the pipeline.**
+This architecture represents the way I approach applied AI: **data first, intelligence where useful, security around agent authority, automation where repeatability matters, and observability throughout the pipeline.**
 
 ---
 
@@ -122,6 +131,8 @@ This architecture represents the way I approach applied AI: **data first, intell
 
 - Applied AI Engineering
 - Agentic Systems
+- AI Security & Defensive AI
+- Adversarial AI Evaluation
 - Retrieval-Augmented Generation (RAG)
 - Document Intelligence
 - OCR and information extraction
@@ -153,6 +164,7 @@ Public repositories should follow these standards:
 4. Clear README with problem, architecture, stack and limitations.
 5. Reproducible installation and execution instructions.
 6. Explicit distinction between production-oriented work, experiments and learning projects.
+7. Security experiments remain isolated and sandboxed.
 
 ---
 
