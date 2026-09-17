@@ -1,88 +1,136 @@
 # Anderson Leon Ayora
 
-### AI Engineer · Data Scientist · Data Architect
+## AI Engineer · Data Scientist · Applied AI
 
-**Applied AI · Document Intelligence · Intelligent Automation · Data & Analytics · Machine Learning**
+**Agentic Systems · RAG · Document Intelligence · Intelligent Automation · Data Engineering · Machine Learning**
 
-I build production-oriented systems that turn real operational problems into measurable, auditable and maintainable software.
+I design and build practical AI systems that connect **data, software, automation and intelligence** to solve real operational problems.
 
-My work sits at the intersection of **Artificial Intelligence, Data Science, automation and software engineering**, with emphasis on document processing, OCR, analytics, workflow automation, data pipelines and AI-enabled systems.
+My engineering focus is on systems that are **useful, measurable, auditable and maintainable** — from data pipelines and OCR to LLM applications, RAG, AI agents and intelligent workflows.
 
 ---
 
-## Ayorai
+## Ayorai Engineering
 
-**Ayorai** is my engineering identity for applied systems built around data, automation and AI.
+**Ayorai** is my engineering identity and portfolio for applied artificial intelligence, data and automation.
 
 ```text
                          AYORAI
                             │
-            ┌───────────────┼───────────────┐
-            │               │               │
-        APPLIED AI        DATA         AUTOMATION
-            │               │               │
-     Document AI       Analytics          RPA
-     OCR / LLM         ML / BI          Workflows
-     Validation       Pipelines         Operations
-            │               │               │
-            └───────────────┼───────────────┘
+          ┌─────────────────┼─────────────────┐
+          │                 │                 │
+       APPLIED AI         DATA          AUTOMATION
+          │                 │                 │
+   Document Intelligence  Analytics          RPA
+   OCR · NLP · LLM        ML · BI        Workflows
+   RAG · Agents           Pipelines      Operations
+          │                 │                 │
+          └─────────────────┼─────────────────┘
                             │
-                    Production Systems
+                    Production Mindset
 ```
 
-## Core Stack
+### Engineering principles
 
-**Languages & Data**  
-`Python` · `SQL` · `JavaScript` · `HTML/CSS` · `pandas` · `openpyxl`
-
-**AI & Machine Learning**  
-`LLM` · `OCR` · `Document Intelligence` · `RAG` · `NLP` · `Machine Learning`
-
-**Automation & Web**  
-`RPA` · `Selenium` · `Power Automate` · `SheetJS` · `Chart.js` · `pdf.js` · `pdf-lib`
-
-**Engineering Principles**  
-`Security` · `Privacy by Design` · `Auditability` · `Reproducibility` · `Separation of Data and Code`
+- **Privacy by Design** — public projects use public, synthetic or anonymized data.
+- **Reproducibility** — versioned code, deterministic workflows and documented setup.
+- **Auditability** — traceable processing, explicit assumptions and observable outputs.
+- **Production Mindset** — prototypes are designed with maintainability and deployment in mind.
+- **Practical AI** — AI is applied where it creates measurable value, not simply because it is available.
 
 ---
 
-## Selected Projects
+## Selected Portfolio
 
-| Repository | Focus |
+### 🚀 Applied AI
+
+**AYORAI** — Applied AI architecture for intelligent systems, orchestration, document processing and automation.
+
+**OCR-Python** — OCR pipeline experimentation with Python, OpenCV and Tesseract, focused on document extraction.
+
+### 🤖 Intelligent Automation
+
+**hybrid-data-management-rpa-pipeline** — Data management and RPA pipeline concepts for operational workflows.
+
+**hybrid-data-architecture-rpa-pipeline** — Architecture patterns connecting data, automation and operational processing.
+
+### 📊 Data & Analytics
+
+**project-ayorai-financial-control** — Financial control, reconciliation and analytical workflows using synthetic data.
+
+**K-Means-Clustering---Iris-Dataset** — Reproducible machine-learning fundamentals and clustering experimentation.
+
+### 🛰️ AI Intelligence
+
+**global-tech-news-ai** — Automated technology intelligence pipeline with RSS ingestion, processing, translation, structured data and GitHub Actions.
+
+**AyorAI Tools** — Curated AI tools directory for discovering models, platforms, developer tools, automation and creative AI.
+
+### 🎮 Learning Lab
+
+**sonic-mvp-game** — Game-development learning project created during Hub Games training. Kept separate from the professional AI portfolio to demonstrate continuous learning and experimentation.
+
+---
+
+## Technical Stack
+
+| Area | Technologies |
 |---|---|
-| **global-tech-news-ai** | Automated data ingestion, translation, scheduled pipelines and static deployment |
-| **project-ayorai-financial-control** | Financial control, reconciliation concepts and analytics with synthetic data |
-| **hybrid-data-management-rpa-pipeline** | Data management and RPA pipeline architecture |
-| **hybrid-data-architecture-rpa-pipeline** | Data architecture and automation pipeline design |
-| **OCR-Python** | OCR engineering with OpenCV, Tesseract and document export |
-| **OCRWinRT-CSharp** | Offline OCR experimentation with C# and Windows Runtime |
-| **K-Means-Clustering---Iris-Dataset** | Reproducible machine-learning fundamentals |
-| **sonic-mvp-game** | Game development learning project created during Hub Games training |
-
-The portfolio prioritizes projects that demonstrate **engineering decisions, reproducibility, automation, AI/data capabilities and practical problem solving** rather than quantity of repositories.
+| Languages | Python · SQL · JavaScript · HTML/CSS · C# |
+| AI / ML | LLMs · RAG · Agents · NLP · OCR · Machine Learning |
+| Data | pandas · NumPy · SQL · Power BI · ETL / ELT |
+| Automation | RPA · Selenium · Power Automate · Workflow Automation |
+| APIs / Backend | FastAPI · REST · JSON |
+| AI Infrastructure | GitHub Actions · AWS · Local / Private AI |
+| Documents | OpenCV · Tesseract · pdf.js · pdf-lib · SheetJS |
+| Engineering | Git · CI/CD · Reproducibility · Auditability |
 
 ---
 
-## Portfolio Standards
+## Architecture Mindset
 
-Public repositories are organized to be understandable and safe to evaluate:
+```text
+DATA SOURCES
+     │
+     ▼
+INGESTION / ETL
+     │
+     ▼
+VALIDATION / PROCESSING
+     │
+     ├──────────────► OCR / NLP
+     │
+     ├──────────────► ML / Analytics
+     │
+     └──────────────► LLM / RAG / AGENTS
+                              │
+                              ▼
+                       ORCHESTRATION
+                              │
+                              ▼
+                    AUTOMATION / API / UI
+                              │
+                              ▼
+                       AUDITABLE OUTPUT
+```
 
-- Real organizational data is not published.
-- Confidential documents, credentials and API keys are excluded.
-- Demonstrations use synthetic, anonymized or public data.
-- READMEs explain the problem, architecture, stack and limitations.
-- Production workflows are preserved when documentation is improved.
-- Experimental projects are clearly identified as experiments or learning projects.
-
-Projects involving real operational environments are represented through **sanitized architecture, synthetic examples and technical documentation**, not private business information.
+This architecture represents the way I approach applied AI: **data first, intelligence where useful, automation where repeatability matters, and observability throughout the pipeline.**
 
 ---
 
-## Engineering Approach
+## Professional Focus
 
-I prefer solutions that are **simple to operate, transparent to audit and practical to deploy**. Depending on the problem, that can mean a browser application, a structured data layer, a Python pipeline, an RPA workflow, an OCR system or an AI orchestration architecture.
-
-The goal is not to add AI for its own sake. The goal is to design reliable systems where **data, automation and intelligence work together**.
+- Applied AI Engineering
+- Agentic Systems
+- Retrieval-Augmented Generation (RAG)
+- Document Intelligence
+- OCR and information extraction
+- Intelligent automation and RPA
+- Data engineering and analytics
+- Machine learning
+- AI systems for regulated environments
+- Private / local AI architectures
+- Cloud AI and AWS
 
 ---
 
@@ -93,15 +141,28 @@ The goal is not to add AI for its own sake. The goal is to design reliable syste
 
 ---
 
-## Connect
+## Portfolio Standards
 
-- **LinkedIn:** https://www.linkedin.com/in/anderson-leon-ayora
-- **GitHub:** https://github.com/Ayorinha
+This GitHub is intentionally curated. The objective is not to publish everything I build, but to present projects that demonstrate **engineering depth, problem solving and technical maturity**.
+
+Public repositories should follow these standards:
+
+1. No confidential organizational data.
+2. No credentials, secrets or private endpoints.
+3. Synthetic, anonymized or public datasets for demonstrations.
+4. Clear README with problem, architecture, stack and limitations.
+5. Reproducible installation and execution instructions.
+6. Explicit distinction between production-oriented work, experiments and learning projects.
 
 ---
 
-## Portfolio Philosophy
+## Connect
 
-> Build real systems. Protect real data. Measure real impact. Document the engineering.
+**LinkedIn:** https://www.linkedin.com/in/anderson-leon-ayora  
+**GitHub:** https://github.com/Ayorinha
+
+---
+
+> **Build real systems. Protect real data. Measure real impact. Document the engineering.**
 
 © Anderson Leon Ayora · Ayorai
