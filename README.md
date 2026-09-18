@@ -1,192 +1,242 @@
 # Anderson Leon Ayora
 
-## AI Engineer · Data Scientist · Applied AI
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20ENGINEER-00d4ff?style=for-the-badge&logoColor=081522" alt="AI Engineer">
+  <img src="https://img.shields.io/badge/APPLIED%20AI-00e676?style=for-the-badge&logoColor=081522" alt="Applied AI">
+  <img src="https://img.shields.io/badge/AI%20SAFETY-00d4ff?style=for-the-badge&logoColor=081522" alt="AI Safety">
+</p>
 
-**Agentic Systems · AI Security · RAG · Document Intelligence · Intelligent Automation · Data Engineering · Machine Learning**
+<p align="center">
+  <strong>Agentic Systems · RAG · MCP · Document Intelligence · Intelligent Automation · AI Security</strong>
+</p>
 
-I design and build practical AI systems that connect **data, software, automation, security and intelligence** to solve real operational problems.
-
-My engineering focus is on systems that are **useful, measurable, auditable and maintainable** — from data pipelines and OCR to LLM applications, RAG, AI agents, defensive AI and intelligent workflows.
+<p align="center">
+  <a href="https://www.linkedin.com/in/anderson-leon-ayora">LinkedIn</a> ·
+  <a href="https://github.com/Ayorinha">GitHub</a> ·
+  <a href="https://ayorinha.github.io/global-tech-news-ai/">AI Intelligence Lab</a>
+</p>
 
 ---
 
-## Ayorai Engineering
+## ⚡ Engineering Profile
 
-**Ayorai** is my engineering identity and portfolio for applied artificial intelligence, data, automation and AI security.
+I build **practical AI systems** that connect data, software, automation and security to solve real operational problems.
+
+My focus is on **Applied AI Engineering**: turning data and documents into reliable intelligence through **RAG, LLMs, agents, OCR, MCP, APIs, automation and defensive AI**.
+
+> **Build real systems. Protect real data. Measure real impact.**
+
+---
+
+## 🧠 What I Build
+
+| 🤖 Applied AI | 📄 Document Intelligence | ⚙️ Automation | 🛡️ AI Safety |
+|---|---|---|---|
+| LLM applications | OCR pipelines | RPA workflows | Agent defense |
+| RAG systems | Information extraction | Process automation | Policy boundaries |
+| Agentic systems | Document processing | APIs & orchestration | Auditability |
+| MCP integrations | NLP | Data pipelines | Adversarial evaluation |
+
+---
+
+## 🚀 Featured Projects
+
+### 🛰️ AI Radar & Global Tech Intelligence
+**[global-tech-news-ai](https://github.com/Ayorinha/global-tech-news-ai)**
+
+Automated technology-intelligence platform combining **news ingestion, AI tools discovery, ranking, structured data and GitHub Actions**.
+
+### 🛡️ AyorAI Agent Defense Lab
+**[Open the project](https://github.com/Ayorinha/global-tech-news-ai/tree/main/labs/ayorai-agent-defense-lab)**
+
+Controlled laboratory for evaluating defensive AI agents in synthetic financial workflows.
 
 ```text
-                         AYORAI
-                            │
-       ┌────────────────────┼────────────────────┐
-       │                    │                    │
-    APPLIED AI             DATA              SECURITY
-       │                    │                    │
- Document AI            Analytics          Agent Defense
- OCR · NLP · LLM        ML · BI            Red / Blue AI
- RAG · Agents           Pipelines          Policy · Audit
-       │                    │                    │
-       └────────────────────┼────────────────────┘
-                            │
-                    AUTOMATION / SYSTEMS
+Red Agent
+    ↓
+Policy Boundary
+    ↓
+Synthetic Financial Sandbox
+    ↓
+Blue Agent
+    ↓
+Evaluation
+    ↓
+Audit Trail
 ```
 
-### Engineering principles
+Includes **prompt-injection simulation, RBAC, tool allowlists, transaction limits, human-approval gates, output redaction, synthetic state, audit events and reproducible tests**.
 
-- **Privacy by Design** — public projects use public, synthetic or anonymized data.
-- **Security by Design** — agents operate with bounded authority, explicit policies and audit trails.
-- **Reproducibility** — versioned code, deterministic workflows and documented setup.
-- **Auditability** — traceable processing, explicit assumptions and observable outputs.
-- **Production Mindset** — prototypes are designed with maintainability and deployment in mind.
-- **Practical AI** — AI is applied where it creates measurable value.
+### 🔎 RAG Framework
+**[RAG-framework](https://github.com/Ayorinha/RAG-framework)**
 
----
+Foundation for experimenting with retrieval-augmented AI applications and reliable LLM engineering patterns.
 
-## Selected Portfolio
+### 👁️ AyorAI Vision Intelligence
+**[ayorai-vision-intelligence](https://github.com/Ayorinha/ayorai-vision-intelligence)**
 
-### 🚀 Applied AI
+Computer-vision and document-intelligence experimentation focused on transforming visual information into structured data.
 
-**[AYORAI](https://github.com/Ayorinha/ayorai)** — Applied AI architecture for intelligent systems, orchestration, document processing and automation.
+### ⚙️ Hybrid Data Management + RPA
+**[hybrid-data-management-rpa-pipeline](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)**
 
-**[OCR-Python](https://github.com/Ayorinha/OCR-Python)** — OCR pipeline experimentation with Python, OpenCV and Tesseract, focused on document extraction.
+Architecture connecting **data management, validation, automation and operational workflows**.
 
-### 🛡️ AI Security & Defensive AI
+### 💰 AyorAI Financial Control
+**[project-ayorai-financial-control](https://github.com/Ayorinha/project-ayorai-financial-control)**
 
-**[AyorAI Agent Defense Lab](https://github.com/Ayorinha/global-tech-news-ai/tree/main/labs/ayorai-agent-defense-lab)** — End-to-end open-source security laboratory for adversarial evaluation of defensive AI agents in synthetic sensitive-data and financial workflows.
-
-**Security architecture:** Red Agent → Policy Boundary → Synthetic Financial Sandbox → Blue Agent → Evaluation → Audit.
-
-The lab demonstrates **prompt-injection simulation, authorization boundaries, RBAC, tool allowlists, transaction limits, human-approval gates, output redaction, synthetic ledger state, hash-linked audit events, benchmark metrics, local-LLM integration and reproducible CI tests**. The Red Agent is strictly a controlled simulation engine; it does not attack external systems.
-
-### 🤖 Intelligent Automation
-
-**[hybrid-data-management-rpa-pipeline](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)** — Data management and RPA pipeline concepts for operational workflows.
-
-**[hybrid-data-architecture-rpa-pipeline](https://github.com/Ayorinha/hybrid-data-architecture-rpa-pipeline)** — Architecture patterns connecting data, automation and operational processing.
-
-### 📊 Data & Analytics
-
-**[project-ayorai-financial-control](https://github.com/Ayorinha/project-ayorai-financial-control)** — Financial control, reconciliation and analytical workflows using synthetic data.
-
-**[K-Means-Clustering---Iris-Dataset](https://github.com/Ayorinha/K-Means-Clustering---Iris-Dataset)** — Reproducible machine-learning fundamentals and clustering experimentation.
-
-### 🛰️ AI Intelligence
-
-**[global-tech-news-ai](https://github.com/Ayorinha/global-tech-news-ai)** — Automated technology intelligence pipeline with RSS ingestion, processing, translation, structured data and GitHub Actions.
-
-**AyorAI Tools** — Curated AI tools directory for discovering models, platforms, developer tools, automation and creative AI.
-
-### 🎮 Learning Lab
-
-**[sonic-mvp-game](https://github.com/Ayorinha/sonic-mvp-game)** — Game-development learning project created during Hub Games training. Kept separate from the professional AI portfolio to demonstrate continuous learning and experimentation.
+Synthetic-data project for financial control, reconciliation and analytical workflows.
 
 ---
 
-## Technical Stack
-
-| Area | Technologies |
-|---|---|
-| Languages | Python · SQL · JavaScript · HTML/CSS · C# |
-| AI / ML | LLMs · RAG · Agents · NLP · OCR · Machine Learning |
-| AI Security | Adversarial Evaluation · Agent Security · Policy Engines · Red/Blue Testing · Auditability |
-| Data | pandas · NumPy · SQL · Power BI · ETL / ELT |
-| Automation | RPA · Selenium · Power Automate · Workflow Automation |
-| APIs / Backend | FastAPI · REST · JSON |
-| AI Infrastructure | GitHub Actions · AWS · Local / Private AI |
-| Documents | OpenCV · Tesseract · pdf.js · pdf-lib · SheetJS |
-| Engineering | Git · CI/CD · Reproducibility · Auditability |
-
----
-
-## Architecture Mindset
+## 🏗️ Engineering Architecture
 
 ```text
-DATA SOURCES
-     │
-     ▼
-INGESTION / ETL
-     │
-     ▼
-VALIDATION / PROCESSING
-     │
-     ├──────────────► OCR / NLP
-     │
-     ├──────────────► ML / Analytics
-     │
-     └──────────────► LLM / RAG / AGENTS
-                              │
-                              ▼
-                       POLICY / SECURITY
-                              │
-                              ▼
-                       ORCHESTRATION
-                              │
-                              ▼
-                    AUTOMATION / API / UI
-                              │
-                              ▼
-                       AUDITABLE OUTPUT
+                    DATA SOURCES
+                         │
+                         ▼
+                 INGESTION / ETL
+                         │
+                         ▼
+              VALIDATION / PROCESSING
+                         │
+             ┌───────────┼───────────┐
+             ▼           ▼           ▼
+            OCR         ML        LLM / RAG
+             │           │           │
+             └───────────┼───────────┘
+                         ▼
+                 AGENTS / MCP TOOLS
+                         │
+                         ▼
+                POLICY / AI SAFETY
+                         │
+                         ▼
+                  ORCHESTRATION
+                         │
+                  ┌──────┴──────┐
+                  ▼             ▼
+                 API          RPA / UI
+                  │             │
+                  └──────┬──────┘
+                         ▼
+                  AUDITABLE OUTPUT
 ```
 
-This architecture represents the way I approach applied AI: **data first, intelligence where useful, security around agent authority, automation where repeatability matters, and observability throughout the pipeline.**
+**Data first → intelligence where useful → bounded agent authority → automation where repeatability matters → observable and auditable output.**
 
 ---
 
-## Professional Focus
+## 🧩 Technology Stack
 
-- Applied AI Engineering
-- Agentic Systems
-- AI Security & Defensive AI
-- Adversarial AI Evaluation
-- Retrieval-Augmented Generation (RAG)
-- Document Intelligence
-- OCR and information extraction
-- Intelligent automation and RPA
-- Data engineering and analytics
-- Machine learning
-- AI systems for regulated environments
-- Private / local AI architectures
-- Cloud AI and AWS
+<p>
+  <img src="https://img.shields.io/badge/Python-00d4ff?style=flat-square&logo=python&logoColor=081522">
+  <img src="https://img.shields.io/badge/SQL-00e676?style=flat-square&logo=postgresql&logoColor=081522">
+  <img src="https://img.shields.io/badge/RAG-00d4ff?style=flat-square&logoColor=081522">
+  <img src="https://img.shields.io/badge/LLM-00e676?style=flat-square&logoColor=081522">
+  <img src="https://img.shields.io/badge/Agents-00d4ff?style=flat-square&logoColor=081522">
+  <img src="https://img.shields.io/badge/MCP-00e676?style=flat-square&logoColor=081522">
+  <img src="https://img.shields.io/badge/OCR-00d4ff?style=flat-square&logoColor=081522">
+  <img src="https://img.shields.io/badge/FastAPI-00e676?style=flat-square&logo=fastapi&logoColor=081522">
+  <img src="https://img.shields.io/badge/AWS-00d4ff?style=flat-square&logo=amazonwebservices&logoColor=081522">
+  <img src="https://img.shields.io/badge/Docker-00e676?style=flat-square&logo=docker&logoColor=081522">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-00d4ff?style=flat-square&logo=githubactions&logoColor=081522">
+  <img src="https://img.shields.io/badge/Power%20BI-00e676?style=flat-square&logo=powerbi&logoColor=081522">
+</p>
 
----
-
-## Education
-
-- **MBA em Ciência de Dados, Analytics e Inteligência Artificial — USP/Esalq**
-- **Tecnologia em Banco de Dados — FIAP** · 2020–2022
-
-### Certifications
-
-- **AWS Certified Generative AI Developer – Professional** — Amazon Web Services (AWS) · Ago 2026
-- **Eng. de Dados e Fundamentos em Ciência de Dados** — FIAP · Gold Certified · Dez 2021
-- **Infraestrutura de Banco de Dados** — FIAP · Gold Certified · Dez 2020
-- **Administração de BD e Analista de BI** — FIAP · Bronze Certified · Dez 2021
-- **Modelagem de Banco de Dados** — FIAP · Silver Certified · Jun 2020
+**AI:** LLMs · RAG · Agents · Generative AI · NLP · Vision AI  
+**AI Safety:** Agent Security · Policy Engines · RBAC · Tool Allowlisting · Auditability  
+**Data:** Python · SQL · pandas · NumPy · ETL/ELT · Power BI  
+**Automation:** RPA · Selenium · Workflow Automation · APIs  
+**Documents:** OCR · OpenCV · Tesseract · pdf.js · pdf-lib · SheetJS  
+**Backend:** FastAPI · REST · JSON  
+**Engineering:** Git · GitHub Actions · CI/CD · Reproducibility  
+**Cloud / Private AI:** AWS · Local LLMs · Private AI architectures
 
 ---
 
-## Portfolio Standards
+## 📊 Engineering Impact
 
-This GitHub is intentionally curated. The objective is not to publish everything I build, but to present projects that demonstrate **engineering depth, problem solving and technical maturity**.
+My projects are designed around **measurable operational improvement**, not AI for demonstration alone.
 
-Public repositories should follow these standards:
-
-1. No confidential organizational data.
-2. No credentials, secrets or private endpoints.
-3. Synthetic, anonymized or public datasets for demonstrations.
-4. Clear README with problem, architecture, stack and limitations.
-5. Reproducible installation and execution instructions.
-6. Explicit distinction between production-oriented work, experiments and learning projects.
-7. Security experiments remain isolated and sandboxed.
+- Reduce repetitive manual processing
+- Turn unstructured documents into structured data
+- Automate validation and reconciliation
+- Build traceable AI workflows
+- Reduce uncontrolled agent actions
+- Support privacy and audit requirements
+- Connect AI systems to existing operational processes
 
 ---
 
-## Connect
+## 🔐 Engineering Principles
 
-**LinkedIn:** https://www.linkedin.com/in/anderson-leon-ayora  
-**GitHub:** https://github.com/Ayorinha
+**Privacy by Design** · Public projects use public, synthetic or anonymized data.  
+**Security by Design** · Agents operate with bounded authority, explicit policies and audit trails.  
+**Reproducibility** · Versioned code, documented setup and repeatable workflows.  
+**Auditability** · Important processing steps should be observable and traceable.  
+**Production Mindset** · Architecture should anticipate maintainability, testing and deployment.  
+**Practical AI** · Use AI where it creates measurable value.
 
 ---
 
-> **Build real systems. Protect real data. Measure real impact. Document the engineering.**
+## 🎓 Education
 
-© Anderson Leon Ayora · Ayorai
+**MBA em Ciência de Dados, Analytics e Inteligência Artificial — USP/Esalq**  
+2026–2027
+
+**Tecnologia em Banco de Dados — FIAP**  
+Completed in 2022
+
+**AWS Cloud Practitioner — Skill Builder**  
+Official practice-question set completed · September 2026
+
+---
+
+## 💼 Professional Focus
+
+**AI Engineer · Data Scientist · Applied AI**
+
+Focused on enterprise-oriented solutions involving **Applied AI, Agentic Systems, RAG, MCP, Document Intelligence, OCR, Intelligent Automation/RPA, AI Security, Data Engineering, Machine Learning, Private/Local AI and regulated environments.**
+
+---
+
+## 🌐 Open Source & Continuous Learning
+
+I use GitHub as an engineering portfolio: projects should communicate **architecture, implementation, experimentation, limitations and reproducibility**.
+
+```text
+Data
+  ↓
+Automation
+  ↓
+AI Applications
+  ↓
+RAG / Agents / MCP
+  ↓
+AI Safety
+  ↓
+Production-Oriented Systems
+```
+
+---
+
+## 📫 Connect
+
+<p>
+  <a href="https://www.linkedin.com/in/anderson-leon-ayora">
+    <img src="https://img.shields.io/badge/LinkedIn-00d4ff?style=for-the-badge&logo=linkedin&logoColor=081522">
+  </a>
+  <a href="https://github.com/Ayorinha">
+    <img src="https://img.shields.io/badge/GitHub-00e676?style=for-the-badge&logo=github&logoColor=081522">
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <strong>AYORAI</strong><br>
+  Applied AI · Data · Automation · Security
+</p>
+
+<p align="center"><sub>© Anderson Leon Ayora</sub></p>
