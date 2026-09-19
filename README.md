@@ -80,28 +80,7 @@ Work focused on transforming visual and document information into structured, us
 
 Data pipelines, validation, reconciliation, automation and operational workflows.
 
-# 🎮 Interactive Engineering
-
-## 🌀 AYORAI 3D Speed Run
-
-**A playable browser game published through GitHub Pages.**
-
-[🎮 PLAY ONLINE](https://ayorinha.github.io/sonic-mvp-game/)
-
-A separate interactive engineering project exploring:
-
-- 3D browser rendering
-- Three.js / WebGL
-- third-person camera
-- real-time movement
-- touch controls
-- responsive mobile UI
-- audio feedback
-- GitHub Pages deployment
-
-> Original character and implementation. No proprietary Sonic assets or models.
-
-The game is intentionally **visible here rather than buried in a study-project list**: it demonstrates a different engineering capability from the AI portfolio.
+---
 
 # 🌐 AYORAI · Applied Intelligence Platform
 
@@ -110,6 +89,8 @@ The game is intentionally **visible here rather than buried in a study-project l
 The public portfolio hub combines AI/technology intelligence, AI Index, AI Safety/Security Lab, RAG, Document Intelligence, automation, data engineering and public evaluation evidence.
 
 Repository: [global-tech-news-ai](https://github.com/Ayorinha/global-tech-news-ai)
+
+---
 
 # 🧭 Engineering Architecture
 
@@ -135,6 +116,8 @@ AUDITABLE OUTPUT
 
 **Data first → intelligence where useful → bounded authority → automation → observable output.**
 
+---
+
 # 🧩 Technology
 
 **AI:** LLMs · RAG · Agents · Generative AI · NLP · Vision AI  
@@ -146,6 +129,8 @@ AUDITABLE OUTPUT
 **Engineering:** Git · GitHub Actions · CI/CD · Testing  
 **Cloud / Private AI:** AWS · Local LLMs · Private AI architectures
 
+---
+
 # 🔐 Engineering Principles
 
 - **Privacy by Design** — public repositories use public, synthetic or anonymized data.
@@ -154,6 +139,8 @@ AUDITABLE OUTPUT
 - **Auditability** — important processing steps should remain observable and traceable.
 - **Production Mindset** — architecture should anticipate testing, maintenance and deployment.
 - **Practical AI** — use AI where it creates measurable value.
+
+---
 
 # 🎓 Education
 
@@ -166,11 +153,15 @@ Completed · 2022
 **AWS Cloud Practitioner — Skill Builder**  
 Practice preparation · September 2026
 
+---
+
 # 💼 Professional Focus
 
 **AI Engineer · Data Scientist · Data Architect**
 
 Applied AI · Agentic Systems · RAG · MCP · Document Intelligence · OCR · Intelligent Automation · AI Security · Data Engineering · Machine Learning · Private / Local AI
+
+---
 
 # 📈 Engineering Journey
 
@@ -189,6 +180,8 @@ Production-Oriented AI
 ```
 
 I use GitHub to document **implementation, architecture, experimentation, testing, collaboration and reproducibility**.
+
+---
 
 # 📫 Connect
 
