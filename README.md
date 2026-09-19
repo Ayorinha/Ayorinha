@@ -289,3 +289,21 @@ Production-Oriented Systems
 </p>
 
 <p align="center"><sub>© Anderson Leon Ayora</sub></p>
+
+
+## 📦 Portfolio status
+
+| Projeto | Papel | Estado |
+|---|---|---|
+| [ayorai](https://github.com/Ayorinha/ayorai) | Flagship — Agentic AI / AI Safety / RAG / MCP | Ativo |
+| [ayorai-vision-intelligence](https://github.com/Ayorinha/ayorai-vision-intelligence) | AI Shield / segurança de agentes | Ativo |
+| [global-tech-news-ai](https://github.com/Ayorinha/global-tech-news-ai) | Portfolio hub / AI Laboratory | Ativo |
+| [OCRWinRT-CSharp](https://github.com/Ayorinha/OCRWinRT-CSharp) | Windows OCR PoC | Funcional |
+| [OCR-Python](https://github.com/Ayorinha/OCR-Python) | OCR experimental | Funcional |
+| [RAG-framework](https://github.com/Ayorinha/RAG-framework) | RAG framework / contribuição | Ativo |
+| [hybrid-data-management-rpa-pipeline](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline) | Data Engineering / RPA | Funcional |
+| [project-ayorai-financial-control](https://github.com/Ayorinha/project-ayorai-financial-control) | Financial Analytics | Funcional |
+| [K-Means-Clustering---Iris-Dataset](https://github.com/Ayorinha/K-Means-Clustering---Iris-Dataset) | ML fundamentals | Funcional |
+| [sonic-mvp-game](https://github.com/Ayorinha/sonic-mvp-game) | Learning project | Estudo |
+
+> O portfólio público prioriza código, documentação, testes e evidência de execução. Projetos de estudo ficam separados dos projetos flagship.
