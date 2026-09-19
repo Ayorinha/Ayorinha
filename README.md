@@ -68,7 +68,7 @@ Append-only Audit
 
 **Engineering thesis:** the model reasons, retrieval is untrusted, deterministic policy authorizes, tools run with least privilege, humans approve consequential actions, and decisions remain auditable.
 
-**Stack:** Python · FastAPI · RAG · MCP · RBAC · Policy Engine · Security Evaluation · Auditability · CI
+**Stack:** Python · FastAPI · RAG · MCP · Least-Privilege Policy Engine · Security Evaluation · Auditability · CI
 
 > Public-safe research/engineering prototype. Synthetic data only; not an official IEPTB production system.
 
@@ -96,7 +96,7 @@ Evaluation
 Audit Trail
 ```
 
-Includes **prompt-injection simulation, RBAC, tool allowlists, transaction limits, human-approval gates, output redaction, synthetic state, audit events and reproducible tests**.
+Includes **prompt-injection simulation, policy boundaries, tool allowlists, transaction limits, human-approval gates, output redaction, synthetic state, audit events and reproducible tests**.
 
 ### 🔎 RAG Framework
 **[RAG-framework](https://github.com/Ayorinha/RAG-framework)**
@@ -194,7 +194,7 @@ I prioritize **reproducible engineering evidence**: code, tests, pull requests, 
 </p>
 
 **AI:** LLMs · RAG · Agents · Generative AI · NLP · Vision AI  
-**AI Safety:** Agent Security · Policy Engines · RBAC · Tool Allowlisting · Auditability  
+**AI Safety:** Agent Security · Policy Engines · Least Privilege · Tool Allowlisting · Auditability  
 **Data:** Python · SQL · pandas · NumPy · ETL/ELT · Power BI  
 **Automation:** RPA · Selenium · Workflow Automation · APIs  
 **Documents:** OCR · OpenCV · Tesseract · pdf.js · pdf-lib · SheetJS  
@@ -238,7 +238,7 @@ My projects are designed around **measurable operational improvement**, not AI f
 Completed in 2022
 
 **AWS Cloud Practitioner — Skill Builder**  
-Official practice-question set completed · September 2026
+Official practice-question set completed · September 2026 (practice preparation; not presented as a certification)
 
 ---
 
