@@ -41,6 +41,37 @@ My focus is on **Applied AI Engineering**: turning data and documents into relia
 
 ## 🚀 Featured Projects
 
+### 🛡️ IEPTB Agentic AI Platform — Flagship
+**[ayorai-vision-intelligence](https://github.com/Ayorinha/ayorai-vision-intelligence)**
+
+Secure, evaluated Agentic AI reference architecture for regulated remessa workflows.
+
+```text
+User
+  ↓
+Security Gate
+  ↓
+Agent Orchestrator
+  ↓
+RAG / Retrieval
+  ↓
+Validation
+  ↓
+Deterministic Policy
+  ↓
+MCP / Governed Tools
+  ↓
+Human Approval
+  ↓
+Append-only Audit
+```
+
+**Engineering thesis:** the model reasons, retrieval is untrusted, deterministic policy authorizes, tools run with least privilege, humans approve consequential actions, and decisions remain auditable.
+
+**Stack:** Python · FastAPI · RAG · MCP · RBAC · Policy Engine · Security Evaluation · Auditability · CI
+
+> Public-safe research/engineering prototype. Synthetic data only; not an official IEPTB production system.
+
 ### 🛰️ AI Radar & Global Tech Intelligence
 **[global-tech-news-ai](https://github.com/Ayorinha/global-tech-news-ai)**
 
@@ -72,10 +103,8 @@ Includes **prompt-injection simulation, RBAC, tool allowlists, transaction limit
 
 Foundation for experimenting with retrieval-augmented AI applications and reliable LLM engineering patterns.
 
-### 👁️ AyorAI Vision Intelligence
-**[ayorai-vision-intelligence](https://github.com/Ayorinha/ayorai-vision-intelligence)**
-
-Computer-vision and document-intelligence experimentation focused on transforming visual information into structured data.
+### 👁️ Document & Vision Intelligence
+Computer-vision and document-intelligence work focused on transforming visual information into structured data.
 
 ### ⚙️ Hybrid Data Management + RPA
 **[hybrid-data-management-rpa-pipeline](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)**
@@ -126,6 +155,26 @@ Synthetic-data project for financial control, reconciliation and analytical work
 **Data first → intelligence where useful → bounded agent authority → automation where repeatability matters → observable and auditable output.**
 
 ---
+
+## 🧭 Engineering Focus
+
+```text
+Applied AI
+   ↓
+Agentic Systems
+   ↓
+RAG + MCP
+   ↓
+Evaluation
+   ↓
+AI Safety / Security
+   ↓
+Enterprise Integration
+   ↓
+Production-oriented AI
+```
+
+I prioritize **reproducible engineering evidence**: code, tests, pull requests, CI, evaluation reports, architecture decisions and explicit limitations.
 
 ## 🧩 Technology Stack
 
