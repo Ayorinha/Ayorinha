@@ -16,6 +16,21 @@
 
 ---
 
+## 🏆 GitHub Achievements
+
+<p align="center">
+  <a href="https://github.com/users/Ayorinha/achievements/quickdraw">
+    <img src="https://img.shields.io/badge/🤠%20Quickdraw-Unlocked-00d4ff?style=for-the-badge" alt="Quickdraw Achievement">
+  </a>
+  <a href="https://github.com/users/Ayorinha/achievements/yolo">
+    <img src="https://img.shields.io/badge/🟣%20YOLO-Unlocked-00e676?style=for-the-badge" alt="YOLO Achievement">
+  </a>
+</p>
+
+<p align="center"><sub>Recent GitHub achievements — visible on the public profile</sub></p>
+
+---
+
 ## ⚡ Engineering Profile
 
 I build practical AI systems that connect **data, software, automation and security** to solve real operational problems.
