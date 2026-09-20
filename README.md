@@ -54,11 +54,13 @@ The platform combines technology news, AI Index, AI Safety/Security Lab, RAG, Do
 ---
 
 ## 🌐 03 · AYORAI · Applied Intelligence Platform
-**The hub connecting the AYORAI engineering ecosystem.**
+**Engineering ecosystem connecting my AI projects, experiments and production-oriented work.**
 
-[Open the AYORAI portfolio →](https://ayorinha.github.io/global-tech-news-ai/)
+[Explore the AYORAI GitHub ecosystem →](https://github.com/Ayorinha)
 
-Applied AI · AI Engineering · AI Safety · Agentic Systems · RAG · MCP · Document Intelligence · Intelligent Automation
+This is the architectural layer behind the portfolio: **Applied AI · AI Engineering · AI Safety · Agentic Systems · RAG · MCP · Document Intelligence · Intelligent Automation**.
+
+**Global Tech News AI is the public product. AYORAI is the broader engineering ecosystem.**
 
 ---
 
