@@ -11,7 +11,8 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/anderson-leon-ayora">LinkedIn</a> ·
 <a href="https://github.com/Ayorinha">GitHub</a> ·
-<a href="https://ayorinha.github.io/global-tech-news-ai/">AYORAI Applied Intelligence</a>
+<a href="https://ayorinha.github.io/global-tech-news-ai/">AYORAI Applied Intelligence</a> ·
+<a href="https://ayorinha.github.io/global-tech-news-ai/">Global Tech News AI</a>
 </p>
 
 ---
@@ -19,15 +20,15 @@
 ## 🏆 GitHub Achievements
 
 <p align="center">
-  <a href="https://github.com/users/Ayorinha/achievements/quickdraw">
-    <img src="https://img.shields.io/badge/🤠%20Quickdraw-Unlocked-00d4ff?style=for-the-badge" alt="Quickdraw Achievement">
-  </a>
   <a href="https://github.com/users/Ayorinha/achievements/yolo">
     <img src="https://img.shields.io/badge/🟣%20YOLO-Unlocked-00e676?style=for-the-badge" alt="YOLO Achievement">
   </a>
+  <a href="https://github.com/users/Ayorinha/achievements/quickdraw">
+    <img src="https://img.shields.io/badge/🤠%20Quickdraw-Unlocked-00d4ff?style=for-the-badge" alt="Quickdraw Achievement">
+  </a>
 </p>
 
-<p align="center"><sub>Recent GitHub achievements — visible on the public profile</sub></p>
+<p align="center"><sub>GitHub achievements — YOLO highlighted first</sub></p>
 
 ---
 
@@ -99,11 +100,17 @@ Data pipelines, validation, reconciliation, automation and operational workflows
 
 # 🌐 AYORAI · Applied Intelligence Platform
 
-[Open the portfolio →](https://ayorinha.github.io/global-tech-news-ai/)
+[Open the AYORAI portfolio →](https://ayorinha.github.io/global-tech-news-ai/)
 
-The public portfolio hub combines AI/technology intelligence, AI Index, AI Safety/Security Lab, RAG, Document Intelligence, automation, data engineering and public evaluation evidence.
+### 📰 Global Tech News AI
 
-Repository: [global-tech-news-ai](https://github.com/Ayorinha/global-tech-news-ai)
+**AI and technology news, intelligence and research hub.**
+
+[🌐 Access the Global Tech News AI website →](https://ayorinha.github.io/global-tech-news-ai/)
+
+[📦 Open the GitHub repository →](https://github.com/Ayorinha/global-tech-news-ai)
+
+The platform combines technology news, AI Index, AI Safety/Security Lab, RAG, Document Intelligence, automation, data engineering and public evaluation evidence.
 
 ---
 
