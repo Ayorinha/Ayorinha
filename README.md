@@ -42,7 +42,27 @@ My focus is **Applied AI Engineering**: RAG, LLMs, agents, OCR, MCP, APIs, autom
 
 # 🚀 Featured Engineering
 
-## 🛡️ 01 · AYORAI — Agentic Intelligence & AI Safety
+## 📰 02 · Global Tech News AI
+**AI and technology news, intelligence and research hub.**
+
+[🌐 Access the Global Tech News AI website →](https://ayorinha.github.io/global-tech-news-ai/)
+
+[📦 Open the GitHub repository →](https://github.com/Ayorinha/global-tech-news-ai)
+
+The platform combines technology news, AI Index, AI Safety/Security Lab, RAG, Document Intelligence, automation, data engineering and public evaluation evidence.
+
+---
+
+## 🌐 03 · AYORAI · Applied Intelligence Platform
+**The hub connecting the AYORAI engineering ecosystem.**
+
+[Open the AYORAI portfolio →](https://ayorinha.github.io/global-tech-news-ai/)
+
+Applied AI · AI Engineering · AI Safety · Agentic Systems · RAG · MCP · Document Intelligence · Intelligent Automation
+
+---
+
+## 🛡️ 04 · AYORAI — Agentic Intelligence & AI Safety
 **Flagship engineering direction**
 
 [Open repository →](https://github.com/Ayorinha/ayorai)
@@ -53,7 +73,7 @@ Multi-agent architecture with orchestration, safety controls, memory, RAG, MCP a
 
 ---
 
-## 🛡️ 02 · AYORAI AI Shield — Agent Security
+## 🛡️ 05 · AYORAI AI Shield — Agent Security
 **Defensive AI engineering**
 
 [Open repository →](https://github.com/Ayorinha/ayorai-vision-intelligence)
@@ -66,7 +86,7 @@ Deterministic runtime defense for autonomous agents, including policy enforcemen
 
 ---
 
-## 🔎 03 · RAG Framework — Open Source
+## 🔎 06 · RAG Framework — Open Source
 
 [Open repository →](https://github.com/Ayorinha/RAG-framework)
 
@@ -76,7 +96,7 @@ This also represents my open-source workflow: **issue → branch → implementat
 
 ---
 
-## 👁️ 04 · Document & Vision Intelligence
+## 👁️ 07 · Document & Vision Intelligence
 
 [Vision Intelligence →](https://github.com/Ayorinha/ayorai-vision-intelligence)
 
@@ -88,29 +108,13 @@ Work focused on transforming visual and document information into structured, us
 
 ---
 
-## ⚙️ 05 · Intelligent Automation & Data Engineering
+## ⚙️ 08 · Intelligent Automation & Data Engineering
 
 [Hybrid Data Management + RPA →](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)
 
 [AyorAI Financial Control →](https://github.com/Ayorinha/project-ayorai-financial-control)
 
 Data pipelines, validation, reconciliation, automation and operational workflows.
-
----
-
-# 🌐 AYORAI · Applied Intelligence Platform
-
-[Open the AYORAI portfolio →](https://ayorinha.github.io/global-tech-news-ai/)
-
-### 📰 Global Tech News AI
-
-**AI and technology news, intelligence and research hub.**
-
-[🌐 Access the Global Tech News AI website →](https://ayorinha.github.io/global-tech-news-ai/)
-
-[📦 Open the GitHub repository →](https://github.com/Ayorinha/global-tech-news-ai)
-
-The platform combines technology news, AI Index, AI Safety/Security Lab, RAG, Document Intelligence, automation, data engineering and public evaluation evidence.
 
 ---
 
