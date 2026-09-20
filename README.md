@@ -53,7 +53,20 @@ The platform combines technology news, AI Index, AI Safety/Security Lab, RAG, Do
 
 ---
 
-## 🌐 03 · AYORAI · Applied Intelligence Platform
+## 🔐 03 · AYORAI AI Shield — Agent Security
+**Defensive AI engineering for autonomous and agentic systems.**
+
+[Open AI Shield repository →](https://github.com/Ayorinha/ayorai-vision-intelligence)
+
+Deterministic runtime defense for autonomous agents, including policy enforcement, identity/trust boundaries, transaction governance, egress control, provenance and adversarial evaluation.
+
+**Engineering thesis:** *The model proposes. The Shield decides.*
+
+**Evidence:** CI · security checks · pytest · Ruff · Bandit · dependency audit · threat model
+
+---
+
+## 🌐 04 · AYORAI · Applied Intelligence Platform
 **Engineering ecosystem connecting my AI projects, experiments and production-oriented work.**
 
 [Explore the AYORAI GitHub ecosystem →](https://github.com/Ayorinha)
@@ -64,27 +77,14 @@ This is the architectural layer behind the portfolio: **Applied AI · AI Enginee
 
 ---
 
-## 🛡️ 04 · AYORAI — Agentic Intelligence & AI Safety
-**Flagship engineering direction**
+## 🛡️ 05 · AYORAI — Agentic Intelligence
+**Flagship agentic AI engineering direction**
 
 [Open repository →](https://github.com/Ayorinha/ayorai)
 
-Multi-agent architecture with orchestration, safety controls, memory, RAG, MCP and governed tools.
+Multi-agent architecture with orchestration, memory, RAG, MCP and governed tools.
 
-**Focus:** Agentic AI · RAG · MCP · AI Safety · Tool Governance · Automated Tests
-
----
-
-## 🛡️ 05 · AYORAI AI Shield — Agent Security
-**Defensive AI engineering**
-
-[Open repository →](https://github.com/Ayorinha/ayorai-vision-intelligence)
-
-Deterministic runtime defense for autonomous agents, including policy enforcement, identity/trust boundaries, transaction governance, egress control, provenance and adversarial evaluation.
-
-**Engineering thesis:** *The model proposes. The Shield decides.*
-
-**Evidence:** CI · security checks · pytest · Ruff · Bandit · dependency audit · threat model
+**Focus:** Agentic AI · RAG · MCP · Tool Governance · Automated Tests
 
 ---
 
@@ -122,25 +122,7 @@ Data pipelines, validation, reconciliation, automation and operational workflows
 
 # 🧭 Engineering Architecture
 
-```text
-DATA
-  ↓
-INGESTION / ETL
-  ↓
-VALIDATION
-  ↓
-OCR / ML / LLM / RAG
-  ↓
-AGENTS / MCP / TOOLS
-  ↓
-POLICY + AI SAFETY
-  ↓
-ORCHESTRATION
-  ↓
-API / RPA / APPLICATION
-  ↓
-AUDITABLE OUTPUT
-```
+DATA → INGESTION/ETL → VALIDATION → OCR/ML/LLM/RAG → AGENTS/MCP/TOOLS → POLICY+AI SAFETY → ORCHESTRATION → API/RPA/APPLICATION → AUDITABLE OUTPUT
 
 **Data first → intelligence where useful → bounded authority → automation → observable output.**
 
@@ -193,19 +175,7 @@ Applied AI · Agentic Systems · RAG · MCP · Document Intelligence · OCR · I
 
 # 📈 Engineering Journey
 
-```text
-Data
-  ↓
-Automation
-  ↓
-AI Applications
-  ↓
-RAG / Agents / MCP
-  ↓
-AI Safety
-  ↓
-Production-Oriented AI
-```
+Data → Automation → AI Applications → RAG / Agents / MCP → AI Safety → Production-Oriented AI
 
 I use GitHub to document **implementation, architecture, experimentation, testing, collaboration and reproducibility**.
 
