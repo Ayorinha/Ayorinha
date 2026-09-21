@@ -20,7 +20,6 @@ This document defines the intended public portfolio structure for Anderson Leon 
 | `ayorai-reconciliation` | Data reconciliation and anomaly-oriented reporting | Public after source review |
 | `ayorai-pix-generator` | PDF processing and batch automation | Public after source review |
 | `ayorai-credentials-rpa` | RPA and multi-state workflow automation | Keep private; never publish credentials |
-| `ieptb-ai-2.0-whitepaper` | AI architecture, governance and MLOps research | Documentation only |
 
 ## Publication standard
 
