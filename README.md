@@ -17,88 +17,137 @@
 
 ---
 
-## 🏆 GitHub Achievements
-
-<p align="center">
-  <a href="https://github.com/users/Ayorinha/achievements/yolo">
-    <img src="https://img.shields.io/badge/🟣%20YOLO-Unlocked-00e676?style=for-the-badge" alt="YOLO Achievement">
-  </a>
-  <a href="https://github.com/users/Ayorinha/achievements/quickdraw">
-    <img src="https://img.shields.io/badge/🤠%20Quickdraw-Unlocked-00d4ff?style=for-the-badge" alt="Quickdraw Achievement">
-  </a>
-</p>
-
-<p align="center"><sub>GitHub achievements — YOLO highlighted first</sub></p>
-
----
-
 ## ⚡ Engineering Profile
 
 I build practical AI systems that connect **data, software, automation and security** to solve real operational problems.
 
-My focus is **Applied AI Engineering**: RAG, LLMs, agents, OCR, MCP, APIs, automation and defensive AI for enterprise and regulated environments.
+My engineering focus is **Applied AI for enterprise and regulated environments**, combining RAG, LLMs, agents, MCP, OCR, Document Intelligence, APIs, automation and defensive AI.
 
 > **Build real systems. Protect real data. Measure real impact.**
 
+---
+
 # 🚀 Featured Engineering
 
-## 📰 02 · Global Tech News AI
-**AI and technology news, intelligence and research hub.**
+## 01 · AYORAI — Agentic Intelligence
 
-[🌐 Access the Global Tech News AI website →](https://ayorinha.github.io/global-tech-news-ai/)
-
-[📦 Open the GitHub repository →](https://github.com/Ayorinha/global-tech-news-ai)
-
-The platform combines technology news, AI Index, AI Safety/Security Lab, RAG, Document Intelligence, automation, data engineering and public evaluation evidence.
-
----
-
-## 🔐 03 · AYORAI AI Shield — Agent Security
-**Defensive AI engineering for autonomous and agentic systems.**
-
-[Open AI Shield repository →](https://github.com/Ayorinha/ayorai-vision-intelligence)
-
-Deterministic runtime defense for autonomous agents, including policy enforcement, identity/trust boundaries, transaction governance, egress control, provenance and adversarial evaluation.
-
-**Engineering thesis:** *The model proposes. The Shield decides.*
-
-**Evidence:** CI · security checks · pytest · Ruff · Bandit · dependency audit · threat model
-
----
-
-## 🌐 04 · AYORAI · Applied Intelligence Platform
-**Engineering ecosystem connecting my AI projects, experiments and production-oriented work.**
-
-[Explore the AYORAI GitHub ecosystem →](https://github.com/Ayorinha)
-
-This is the architectural layer behind the portfolio: **Applied AI · AI Engineering · AI Safety · Agentic Systems · RAG · MCP · Document Intelligence · Intelligent Automation**.
-
-**Global Tech News AI is the public product. AYORAI is the broader engineering ecosystem.**
-
----
-
-## 🛡️ 05 · AYORAI — Agentic Intelligence
-**Flagship agentic AI engineering direction**
+**Flagship direction for agentic AI engineering.**
 
 [Open repository →](https://github.com/Ayorinha/ayorai)
 
-Multi-agent architecture with orchestration, memory, RAG, MCP and governed tools.
+AYORAI explores governed multi-agent systems combining:
 
-**Focus:** Agentic AI · RAG · MCP · Tool Governance · Automated Tests
+- Agent orchestration
+- RAG
+- MCP
+- Tool use
+- Memory
+- Policy enforcement
+- Automated testing
+- Security boundaries
+
+### Engineering direction
+
+**Agents → Tools → Governance → Safety → Observable Execution**
+
+The objective is not simply to make agents autonomous, but to build systems where autonomy is **bounded, auditable and testable**.
 
 ---
 
-## 🔎 06 · RAG Framework — Open Source
+## 02 · AYORAI AI Shield — Agent Security
+
+**Defensive AI engineering for autonomous and agentic systems.**
+
+[Open repository →](https://github.com/Ayorinha/ayorai-vision-intelligence)
+
+The AI Shield explores runtime controls for autonomous agents, including:
+
+- Policy enforcement
+- Identity and trust boundaries
+- Tool allowlisting
+- Transaction governance
+- Egress control
+- Provenance
+- Auditability
+- Adversarial evaluation
+
+### Engineering thesis
+
+> **The model proposes. The Shield decides.**
+
+The architecture separates **AI reasoning** from **consequential execution**, creating an additional control layer between an agent's proposal and real-world actions.
+
+### Engineering evidence
+
+**CI · pytest · Ruff · Bandit · dependency audit · threat modeling**
+
+---
+
+## 03 · Global Tech News AI
+
+**AI and technology intelligence platform.**
+
+[🌐 Access the platform →](https://ayorinha.github.io/global-tech-news-ai/)
+
+[📦 Open repository →](https://github.com/Ayorinha/global-tech-news-ai)
+
+The platform combines:
+
+- Technology news
+- AI Index
+- AI Safety / Security Lab
+- AI tools
+- RAG concepts
+- Document Intelligence
+- Automation
+- Data engineering
+- Public experimentation
+
+**Global Tech News AI is the public-facing product layer of the broader AYORAI ecosystem.**
+
+---
+
+## 04 · AYORAI · Applied Intelligence Platform
+
+**Engineering ecosystem connecting AI projects, experiments and production-oriented work.**
+
+[Explore the GitHub ecosystem →](https://github.com/Ayorinha)
+
+AYORAI brings together:
+
+**Applied AI · AI Engineering · AI Safety · Agentic Systems · RAG · MCP · Document Intelligence · Intelligent Automation**
+
+**Global Tech News AI = public product**
+
+**AYORAI = broader engineering ecosystem**
+
+---
+
+## 05 · RAG Framework — Open Source
+
+**Modular Retrieval-Augmented Generation framework.**
 
 [Open repository →](https://github.com/Ayorinha/RAG-framework)
 
-Modular Retrieval-Augmented Generation framework with loaders, chunkers, embeddings, retrieval and generation abstractions.
+Exploration of modular RAG architecture covering:
 
-This also represents my open-source workflow: **issue → branch → implementation → tests → pull request → review**.
+- Document loading
+- Chunking
+- Embeddings
+- Retrieval
+- Generation
+- Modular abstractions
+- Testing
+
+### Development workflow
+
+**Issue → Branch → Implementation → Tests → Pull Request → Review → Merge**
 
 ---
 
-## 👁️ 07 · Document & Vision Intelligence
+## 06 · Document & Vision Intelligence
+
+**Turning visual and document information into structured data.**
 
 [Vision Intelligence →](https://github.com/Ayorinha/ayorai-vision-intelligence)
 
@@ -106,49 +155,178 @@ This also represents my open-source workflow: **issue → branch → implementat
 
 [OCR WinRT / C# →](https://github.com/Ayorinha/OCRWinRT-CSharp)
 
-Work focused on transforming visual and document information into structured, usable data.
+Engineering work involving:
+
+- OCR
+- Computer Vision
+- Document processing
+- Image analysis
+- Structured extraction
+- Document Intelligence
+
+The objective is to transform unstructured visual information into **usable, auditable and machine-processable data**.
 
 ---
 
-## ⚙️ 08 · Intelligent Automation & Data Engineering
+## 07 · Intelligent Automation & Data Engineering
 
-[Hybrid Data Management + RPA →](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)
+**Data pipelines, validation, reconciliation and operational automation.**
 
-[AyorAI Financial Control →](https://github.com/Ayorinha/project-ayorai-financial-control)
+[Hybrid Data Management + RPA Pipeline →](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)
 
-Data pipelines, validation, reconciliation, automation and operational workflows.
+[AYORAI Financial Control →](https://github.com/Ayorinha/project-ayorai-financial-control)
+
+Focus areas:
+
+- Data pipelines
+- ETL / ELT
+- Validation
+- Reconciliation
+- RPA
+- APIs
+- Operational automation
+- Financial data processing
 
 ---
 
 # 🧭 Engineering Architecture
 
-DATA → INGESTION/ETL → VALIDATION → OCR/ML/LLM/RAG → AGENTS/MCP/TOOLS → POLICY+AI SAFETY → ORCHESTRATION → API/RPA/APPLICATION → AUDITABLE OUTPUT
+```
+DATA
+  ↓
+INGESTION / ETL
+  ↓
+VALIDATION
+  ↓
+OCR / ML / LLM / RAG
+  ↓
+AGENTS / MCP / TOOLS
+  ↓
+POLICY + AI SAFETY
+  ↓
+ORCHESTRATION
+  ↓
+API / RPA / APPLICATION
+  ↓
+AUDITABLE OUTPUT
+```
 
-**Data first → intelligence where useful → bounded authority → automation → observable output.**
+### Engineering principle
+
+> **Data first → intelligence where useful → bounded authority → automation → observable output**
+
+---
+
+# 🔐 AI Safety Architecture
+
+AYORAI treats AI Safety as an engineering problem.
+
+```
+USER
+ ↓
+AGENT
+ ↓
+REASONING
+ ↓
+PROPOSED ACTION
+ ↓
+POLICY ENGINE
+ ↓
+TRUST / IDENTITY
+ ↓
+TOOL GOVERNANCE
+ ↓
+EXECUTION
+ ↓
+AUDIT LOG
+```
+
+The key separation is:
+
+**Reasoning ≠ Authorization ≠ Execution**
+
+An agent may recommend an action without automatically receiving authority to execute it.
 
 ---
 
 # 🧩 Technology
 
-**AI:** LLMs · RAG · Agents · Generative AI · NLP · Vision AI  
-**AI Safety:** Policy Engines · Least Privilege · Tool Allowlisting · Auditability · Adversarial Evaluation  
-**Data:** Python · SQL · pandas · NumPy · ETL/ELT · Power BI  
-**Automation:** RPA · Selenium · APIs · Workflow Automation  
-**Documents:** OCR · OpenCV · Tesseract · pdf.js · pdf-lib · SheetJS  
-**Backend:** FastAPI · REST · JSON  
-**Engineering:** Git · GitHub Actions · CI/CD · Testing  
-**Cloud / Private AI:** AWS · Local LLMs · Private AI architectures
+### Artificial Intelligence
+LLMs · RAG · Agents · Generative AI · NLP · Vision AI
+
+### AI Safety & Security
+Policy Engines · Least Privilege · Tool Allowlisting · Identity Boundaries · Auditability · Adversarial Evaluation
+
+### Data Engineering
+Python · SQL · pandas · NumPy · ETL / ELT · Power BI
+
+### Automation
+RPA · Selenium · APIs · Workflow Automation
+
+### Document Intelligence
+OCR · OpenCV · Tesseract · pdf.js · pdf-lib · SheetJS
+
+### Backend
+FastAPI · REST · JSON
+
+### Engineering
+Git · GitHub · GitHub Actions · CI/CD · pytest · Ruff · Bandit
+
+### Cloud & Private AI
+AWS · Local LLMs · Private AI Architectures
 
 ---
 
-# 🔐 Engineering Principles
+# 🔬 Engineering Principles
 
-- **Privacy by Design** — public repositories use public, synthetic or anonymized data.
-- **Security by Design** — consequential agent actions require explicit controls.
-- **Reproducibility** — versioned code, documented setup and repeatable workflows.
-- **Auditability** — important processing steps should remain observable and traceable.
-- **Production Mindset** — architecture should anticipate testing, maintenance and deployment.
-- **Practical AI** — use AI where it creates measurable value.
+### Privacy by Design
+Public repositories use public, synthetic or anonymized data.
+
+### Security by Design
+Consequential agent actions require explicit controls and defined boundaries.
+
+### Least Privilege
+Agents should receive only the capabilities required for their task.
+
+### Reproducibility
+Code, dependencies, experiments and workflows should be versioned and documented.
+
+### Auditability
+Important processing and decision points should remain observable and traceable.
+
+### Production Mindset
+Architecture should anticipate testing, maintenance, monitoring and deployment.
+
+### Practical AI
+AI should be applied where it creates measurable operational value.
+
+---
+
+# 📈 Engineering Journey
+
+```
+Data
+  ↓
+Automation
+  ↓
+AI Applications
+  ↓
+RAG
+  ↓
+Agents
+  ↓
+MCP
+  ↓
+AI Safety
+  ↓
+Production-Oriented AI
+```
+
+My GitHub documents the evolution from **data engineering and automation toward applied AI, agentic systems and AI safety engineering**.
+
+The goal is to demonstrate:
+
+**Architecture · Implementation · Testing · Collaboration · Security · Reproducibility · Production Thinking**
 
 ---
 
@@ -160,9 +338,6 @@ DATA → INGESTION/ETL → VALIDATION → OCR/ML/LLM/RAG → AGENTS/MCP/TOOLS �
 **Tecnologia em Banco de Dados — FIAP**  
 Completed · 2022
 
-**AWS Cloud Practitioner — Skill Builder**  
-Practice preparation · September 2026
-
 ---
 
 # 💼 Professional Focus
@@ -173,11 +348,26 @@ Applied AI · Agentic Systems · RAG · MCP · Document Intelligence · OCR · I
 
 ---
 
-# 📈 Engineering Journey
+# 🌐 AYORAI Ecosystem
 
-Data → Automation → AI Applications → RAG / Agents / MCP → AI Safety → Production-Oriented AI
-
-I use GitHub to document **implementation, architecture, experimentation, testing, collaboration and reproducibility**.
+```
+                    AYORAI
+             Applied Intelligence
+                       │
+       ┌───────────────┼───────────────┐
+       │               │               │
+   Applied AI      AI Safety       Automation
+       │               │               │
+   RAG / LLMs      AI Shield        RPA / APIs
+   Agents          Security         Data
+   MCP             Governance       Pipelines
+       │               │               │
+       └───────────────┼───────────────┘
+                       │
+                Document Intelligence
+                       │
+                Production AI Systems
+```
 
 ---
 
