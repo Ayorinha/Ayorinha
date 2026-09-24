@@ -25,6 +25,31 @@ My engineering focus is **Applied AI for enterprise and regulated environments**
 
 > **Build real systems. Protect real data. Measure real impact.**
 
+## 🧭 Open Source Portfolio Map
+
+The public portfolio is intentionally organized around a small set of engineering themes rather than presenting every experiment as a flagship project.
+
+### Core — AI Engineering & AI Safety
+- **AYORAI** — agentic AI framework with orchestration, RAG, MCP, memory, tool governance and safety contracts.
+- **AYORAI AI Shield** — deterministic runtime defense, identity/trust controls, transaction governance and adversarial evaluation.
+- **MCP-Sentinel** — least-privilege security gateway for MCP environments with deterministic policies and audit trails.
+- **AyorGraph** — explicit graph orchestration with deterministic execution, validation and tracing.
+
+### Applied AI / Data
+- **Global Tech News AI** — public intelligence platform and portfolio hub.
+- **RAG-framework** — modular retrieval-augmented generation foundations.
+- **vault-mcp** — local/private MCP and data-access experimentation.
+- **AgentHound** — agent task/research experimentation.
+
+### Supporting Engineering
+OCR, document intelligence, RPA, financial analytics and data-engineering repositories remain available as supporting evidence of breadth.
+
+### Experimental / Learning
+Small prototypes and study repositories are intentionally separated from the core portfolio so they do not obscure the main engineering narrative.
+
+**Primary engineering themes:** Applied AI · AI Engineering · Agentic Systems · AI Safety · MCP · RAG · Document Intelligence · Automation
+
+
 ---
 
 # 🚀 Featured Engineering
