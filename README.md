@@ -29,14 +29,16 @@ My engineering focus is **Applied AI for enterprise and regulated environments**
 
 The public portfolio is intentionally organized around a small set of engineering themes rather than presenting every experiment as a flagship project.
 
-### Core — AI Engineering & AI Safety
-- **AYORAI** — agentic AI framework with orchestration, RAG, MCP, memory, tool governance and safety contracts.
+### Featured public work
+- **Global Tech News AI** — public intelligence platform and portfolio hub.
 - **AYORAI AI Shield** — deterministic runtime defense, identity/trust controls, transaction governance and adversarial evaluation.
+- **AYORAI** — agentic AI framework with orchestration, RAG, MCP, memory, tool governance and safety contracts.
+
+### Core AI Engineering & AI Safety
 - **MCP-Sentinel** — least-privilege security gateway for MCP environments with deterministic policies and audit trails.
 - **AyorGraph** — explicit graph orchestration with deterministic execution, validation and tracing.
 
 ### Applied AI / Data
-- **Global Tech News AI** — public intelligence platform and portfolio hub.
 - **RAG-framework** — modular retrieval-augmented generation foundations.
 - **vault-mcp** — local/private MCP and data-access experimentation.
 - **AgentHound** — agent task/research experimentation.
@@ -54,63 +56,16 @@ Small prototypes and study repositories are intentionally separated from the cor
 
 # 🚀 Featured Engineering
 
-## 01 · AYORAI — Agentic Intelligence
+## 🏆 GitHub Achievements
 
-**Flagship direction for agentic AI engineering.**
+- **YOLO** — first contribution milestone
+- **Quickdraw** — fast contribution milestone
 
-[Open repository →](https://github.com/Ayorinha/ayorai)
+These achievements are kept visible as evidence of participation; the main portfolio remains focused on engineering work and open-source collaboration.
 
-AYORAI explores governed multi-agent systems combining:
+## 01 · Global Tech News AI
 
-- Agent orchestration
-- RAG
-- MCP
-- Tool use
-- Memory
-- Policy enforcement
-- Automated testing
-- Security boundaries
-
-### Engineering direction
-
-**Agents → Tools → Governance → Safety → Observable Execution**
-
-The objective is not simply to make agents autonomous, but to build systems where autonomy is **bounded, auditable and testable**.
-
----
-
-## 02 · AYORAI AI Shield — Agent Security
-
-**Defensive AI engineering for autonomous and agentic systems.**
-
-[Open repository →](https://github.com/Ayorinha/ayorai-vision-intelligence)
-
-The AI Shield explores runtime controls for autonomous agents, including:
-
-- Policy enforcement
-- Identity and trust boundaries
-- Tool allowlisting
-- Transaction governance
-- Egress control
-- Provenance
-- Auditability
-- Adversarial evaluation
-
-### Engineering thesis
-
-> **The model proposes. The Shield decides.**
-
-The architecture separates **AI reasoning** from **consequential execution**, creating an additional control layer between an agent's proposal and real-world actions.
-
-### Engineering evidence
-
-**CI · pytest · Ruff · Bandit · dependency audit · threat modeling**
-
----
-
-## 03 · Global Tech News AI
-
-**AI and technology intelligence platform.**
+**AI and technology intelligence platform — the public-facing product layer of the AYORAI ecosystem.**
 
 [🌐 Access the platform →](https://ayorinha.github.io/global-tech-news-ai/)
 
@@ -128,25 +83,55 @@ The platform combines:
 - Data engineering
 - Public experimentation
 
-**Global Tech News AI is the public-facing product layer of the broader AYORAI ecosystem.**
+## 02 · AYORAI AI Shield — Agent Security
 
----
+**Deterministic runtime defense for autonomous AI agents.**
+
+[Open repository →](https://github.com/Ayorinha/ayorai-vision-intelligence)
+
+The AI Shield explores:
+
+- Policy enforcement
+- Identity and trust boundaries
+- Tool allowlisting
+- Transaction governance
+- Egress control
+- Provenance
+- Auditability
+- Adversarial evaluation
+
+> **The model proposes. The Shield decides.**
+
+Engineering evidence includes **CI, pytest, Ruff, Bandit, dependency auditing and adversarial regression tests**.
+
+## 03 · AYORAI — Agentic Intelligence
+
+**Applied AI engineering framework for governed agentic systems.**
+
+[Open repository →](https://github.com/Ayorinha/ayorai)
+
+AYORAI explores:
+
+- Agent orchestration
+- RAG
+- MCP
+- Tool governance
+- Memory
+- Policy enforcement
+- Automated testing
+- Security boundaries
+
+**Agents → Tools → Governance → Safety → Observable Execution**
 
 ## 04 · AYORAI · Applied Intelligence Platform
 
-**Engineering ecosystem connecting AI projects, experiments and production-oriented work.**
+**Broader engineering ecosystem connecting AI projects, experiments and production-oriented work.**
 
 [Explore the GitHub ecosystem →](https://github.com/Ayorinha)
-
-AYORAI brings together:
-
-**Applied AI · AI Engineering · AI Safety · Agentic Systems · RAG · MCP · Document Intelligence · Intelligent Automation**
 
 **Global Tech News AI = public product**
 
 **AYORAI = broader engineering ecosystem**
-
----
 
 ## 05 · RAG Framework — Open Source
 
@@ -168,13 +153,16 @@ Exploration of modular RAG architecture covering:
 
 **Issue → Branch → Implementation → Tests → Pull Request → Review → Merge**
 
----
+## 06 · MCP & Agent Security
 
-## 06 · Document & Vision Intelligence
+- [MCP-Sentinel](https://github.com/Ayorinha/MCP-Sentinel) — deterministic MCP security gateway.
+- [AyorGraph](https://github.com/Ayorinha/AyorGraph) — explicit graph orchestration and execution tracing.
+- [AgentHound](https://github.com/Ayorinha/AgentHound) — agent security assessment and analysis tooling.
+- [vault-mcp](https://github.com/Ayorinha/vault-mcp) — MCP/data-access experimentation.
+
+## 07 · Document & Vision Intelligence
 
 **Turning visual and document information into structured data.**
-
-[Vision Intelligence →](https://github.com/Ayorinha/ayorai-vision-intelligence)
 
 [OCR Python →](https://github.com/Ayorinha/OCR-Python)
 
@@ -185,15 +173,10 @@ Engineering work involving:
 - OCR
 - Computer Vision
 - Document processing
-- Image analysis
 - Structured extraction
 - Document Intelligence
 
-The objective is to transform unstructured visual information into **usable, auditable and machine-processable data**.
-
----
-
-## 07 · Intelligent Automation & Data Engineering
+## 08 · Intelligent Automation & Data Engineering
 
 **Data pipelines, validation, reconciliation and operational automation.**
 
@@ -211,8 +194,6 @@ Focus areas:
 - APIs
 - Operational automation
 - Financial data processing
-
----
 
 # 🧭 Engineering Architecture
 
@@ -367,7 +348,7 @@ Completed · 2022
 
 # 💼 Professional Focus
 
-**AI Engineer · Data Scientist · Data Architect**
+**AI Engineer · Applied AI · AI Safety**
 
 Applied AI · Agentic Systems · RAG · MCP · Document Intelligence · OCR · Intelligent Automation · AI Security · Data Engineering · Machine Learning · Private / Local AI
 
