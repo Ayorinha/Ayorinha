@@ -59,9 +59,14 @@ Small prototypes and study repositories are intentionally separated from the cor
 ## 🏆 GitHub Achievements
 
 - **YOLO** — first contribution milestone
-- **Quickdraw** — fast contribution milestone
+- **Quickdraw** — rapid contribution milestone
+- **Pull Shark** — pull request and open-source collaboration milestone
 
-These achievements are kept visible as evidence of participation; the main portfolio remains focused on engineering work and open-source collaboration.
+These achievements represent ongoing participation in open-source software development and collaborative engineering.
+
+My primary focus is **Applied AI, AI Engineering and AI Safety**, with work spanning agentic systems, RAG, MCP, intelligent automation, document intelligence, AI security and production-oriented solutions.
+
+The achievements are evidence of contribution and collaboration; the projects and technical work remain the core of this profile.
 
 ## 01 · Global Tech News AI
 
