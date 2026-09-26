@@ -21,6 +21,8 @@
 
 I build practical AI systems that connect **data, software, automation and security** to solve real operational problems.
 
+My target engineering domain is **AI Engineering for enterprise, financial and regulated environments**, with emphasis on reliable agentic systems, governed tool use and production-oriented LLM applications.
+
 My engineering focus is **Applied AI for enterprise and regulated environments**, combining RAG, LLMs, agents, MCP, OCR, Document Intelligence, APIs, automation and defensive AI.
 
 > **Build real systems. Protect real data. Measure real impact.**
@@ -49,7 +51,7 @@ OCR, document intelligence, RPA, financial analytics and data-engineering reposi
 ### Experimental / Learning
 Small prototypes and study repositories are intentionally separated from the core portfolio so they do not obscure the main engineering narrative.
 
-**Primary engineering themes:** Applied AI · AI Engineering · Agentic Systems · AI Safety · MCP · RAG · Document Intelligence · Automation
+**Primary engineering themes:** Applied AI · AI Engineering · Agentic Systems · LLMs · RAG · MCP · AI Safety · Security · Document Intelligence · Automation
 
 
 ---
@@ -110,6 +112,8 @@ The AI Shield explores:
 Engineering evidence includes **CI, pytest, Ruff, Bandit, dependency auditing and adversarial regression tests**.
 
 ## 03 · AYORAI — Agentic Intelligence
+
+**Python-first agent engineering with explicit orchestration, governed tools and observable execution.**
 
 **Applied AI engineering framework for governed agentic systems.**
 
@@ -277,8 +281,11 @@ RPA · Selenium · APIs · Workflow Automation
 ### Document Intelligence
 OCR · OpenCV · Tesseract · pdf.js · pdf-lib · SheetJS
 
-### Backend
-FastAPI · REST · JSON
+### Backend & Integration
+FastAPI · REST · JSON · API-first architecture · Microservices
+
+### Enterprise Integration
+Python for AI/application services · Java ecosystem integration awareness · Event-driven architecture
 
 ### Engineering
 Git · GitHub · GitHub Actions · CI/CD · pytest · Ruff · Bandit
