@@ -48,8 +48,13 @@ The public portfolio is intentionally organized around a small set of engineerin
 ### Supporting Engineering
 OCR, document intelligence, RPA, financial analytics and data-engineering repositories remain available as supporting evidence of breadth.
 
-### Experimental / Learning
-Small prototypes and study repositories are intentionally separated from the core portfolio so they do not obscure the main engineering narrative.
+### Experimental / Reference Lab
+Additional repositories are intentionally treated as experiments or reference implementations rather than flagship portfolio projects. They cover workflow automation, AI infrastructure, retrieval, vector search, inference benchmarking, local/private AI, observability, document intelligence and data engineering.
+
+These repositories are useful as technical evidence, but the primary portfolio signal remains concentrated in the flagship systems above.
+
+### Portfolio standard
+A repository becomes a flagship project only when it has clear user value, reproducible local execution, tests, CI evidence, security controls, documentation, examples and measurable validation.
 
 **Primary engineering themes:** Applied AI · AI Engineering · Agentic Systems · LLMs · RAG · MCP · AI Safety · Security · Document Intelligence · Automation
 
