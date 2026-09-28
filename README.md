@@ -1,258 +1,200 @@
 # Anderson Leon Ayora
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20ENGINEER-00d4ff?style=for-the-badge" alt="AI Engineer">
-  <img src="https://img.shields.io/badge/APPLIED%20AI-00e676?style=for-the-badge" alt="Applied AI">
-  <img src="https://img.shields.io/badge/AI%20SAFETY-00d4ff?style=for-the-badge" alt="AI Safety">
+  <strong>AI ENGINEER · APPLIED AI · AI SAFETY</strong>
 </p>
-
-<p align="center"><strong>Agentic Systems · RAG · MCP · AI Security · Document Intelligence · Intelligent Automation</strong></p>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/anderson-leon-ayora">LinkedIn</a> ·
-<a href="https://github.com/Ayorinha">GitHub</a> ·
-<a href="https://ayorinha.github.io/global-tech-news-ai/">Global Tech News AI</a>
+  <a href="https://www.linkedin.com/in/anderson-leon-ayora">LinkedIn</a> ·
+  <a href="https://github.com/Ayorinha">GitHub</a> ·
+  <a href="https://ayorinha.github.io/global-tech-news-ai/">AYORAI · Applied Intelligence</a>
 </p>
 
----
+> **I engineer AI systems with explicit boundaries between reasoning, authority and execution.**
 
-## Engineering Profile
+My public engineering work focuses on **agentic AI, AI security, RAG, MCP, Document Intelligence and production-oriented automation**.
 
-I build practical AI systems that connect **data, software, automation and security** to solve operational problems.
+The portfolio is organized around a core principle:
 
-My current engineering focus is **Applied AI, AI Engineering and AI Safety**, especially for enterprise, financial and regulated environments.
-
-I work across **LLMs, RAG, agents, MCP, tool governance, OCR, Document Intelligence, APIs, automation and defensive AI**.
-
-> **Build real systems. Protect real data. Measure real impact.**
+**Intelligence ≠ Authority ≠ Execution**
 
 ---
 
-# 🏆 GitHub Achievements
+# Featured Engineering
 
-- **YOLO**
-- **Quickdraw**
-- **Pull Shark**
+## 01 · AYORAI AI Shield
 
-These milestones reflect open-source participation and collaborative engineering. The projects below are the primary technical evidence of my work.
+**Deterministic runtime security architecture for autonomous AI agents.**
+
+📦 https://github.com/Ayorinha/ayorai-vision-intelligence
+
+The flagship AI Safety project separates model reasoning from consequential execution through:
+
+- deterministic policy enforcement
+- least-privilege tool authorization
+- identity and trust boundaries
+- transaction governance
+- egress controls
+- provenance and replay protection
+- adversarial evaluation
+- MCP security boundaries
+- auditable execution
+
+> **The model proposes. The Shield decides.**
 
 ---
 
-# 🚀 Featured Engineering
+## 02 · Global Tech News AI
 
-## 01 · Global Tech News AI
-
-**Public AI and technology intelligence platform and portfolio hub.**
+**AYORAI's public intelligence and engineering portfolio platform.**
 
 🌐 https://ayorinha.github.io/global-tech-news-ai/
 
 📦 https://github.com/Ayorinha/global-tech-news-ai
 
-Covers AI news, AI tools, AI Safety, RAG, Document Intelligence, automation and public experimentation.
-
----
-
-## 02 · AYORAI AI Shield
-
-**Deterministic runtime defense for autonomous AI agents.**
-
-📦 https://github.com/Ayorinha/ayorai-vision-intelligence
-
-Focus areas:
-
-- Policy enforcement
-- Identity and trust boundaries
-- Tool allowlisting
-- Transaction governance
-- Egress control
-- Provenance
-- Auditability
-- Adversarial evaluation
-
-> **The model proposes. The Shield decides.**
-
-Engineering evidence includes CI, pytest, Ruff, Bandit, dependency auditing and security regression tests.
+Combines public technology intelligence, AI tooling, security research and selected engineering projects into a reproducible public-facing platform.
 
 ---
 
 ## 03 · AYORAI
 
-**Python-first engineering framework for governed agentic AI.**
+**Applied AI engineering framework for governed agentic systems.**
 
 📦 https://github.com/Ayorinha/ayorai
 
 Explores:
 
-- Agent orchestration
+- agent orchestration
 - RAG
 - MCP
-- Tool governance
-- Memory
-- Policy enforcement
-- Automated testing
-- Security boundaries
-- Observable execution
-
-**Agents → Tools → Governance → Safety → Execution**
+- tool governance
+- memory boundaries
+- policy enforcement
+- evaluation
+- observable execution
 
 ---
 
-# 🔐 AI Safety & Agent Infrastructure
+# AI Safety & Agent Security
 
-### MCP-Sentinel
-Deterministic, least-privilege security gateway for MCP environments.
-
-https://github.com/Ayorinha/MCP-Sentinel
-
-### AyorGraph
-Explicit graph orchestration with deterministic execution, validation and tracing.
-
-https://github.com/Ayorinha/AyorGraph
-
-### AgentHound
-Agent security assessment and analysis tooling.
-
-https://github.com/Ayorinha/AgentHound
-
-### vault-mcp
-Local/private MCP and controlled data-access experimentation.
-
-https://github.com/Ayorinha/vault-mcp
+| Project | Focus |
+|---|---|
+| **AYORAI AI Shield** | Runtime policy enforcement and agent security |
+| **MCP-Sentinel** | Least-privilege MCP security |
+| **AgentHound** | Agent security assessment |
+| **AyorGraph** | Explicit graph orchestration and tracing |
+| **vault-mcp** | Local/private controlled data access |
 
 ---
 
-# 🧠 Applied AI & Open Source
+# Applied AI Engineering
 
-### RAG-framework
-Modular Retrieval-Augmented Generation foundations covering document loading, chunking, embeddings, retrieval, generation and testing.
+### Retrieval & Knowledge
+- **RAG-framework** — modular RAG architecture and retrieval components.
+- **Document Intelligence** — OCR, extraction and structured document processing.
 
-https://github.com/Ayorinha/RAG-framework
+### Data & Automation
+- **Hybrid Data Management RPA Pipeline** — data engineering and process automation.
+- **Ayorai Financial Control** — financial analytics and control workflows.
 
-### Document Intelligence
-OCR and structured extraction work:
-
-- https://github.com/Ayorinha/OCR-Python
-- https://github.com/Ayorinha/OCRWinRT-CSharp
-
-### Intelligent Automation & Data Engineering
-Operational data pipelines, validation, reconciliation, RPA and financial-data processing:
-
-- https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline
-- https://github.com/Ayorinha/project-ayorai-financial-control
+The portfolio intentionally prioritizes **systems, reproducibility, security and measurable engineering evidence** over isolated demos.
 
 ---
 
-# 🧭 Engineering Architecture
+# Engineering Model
 
-```
-DATA
-  ↓
-INGESTION / ETL
-  ↓
-VALIDATION
-  ↓
-OCR / ML / LLM / RAG
-  ↓
-AGENTS / MCP / TOOLS
-  ↓
-POLICY + AI SAFETY
-  ↓
-ORCHESTRATION
-  ↓
-API / RPA / APPLICATION
-  ↓
-AUDITABLE OUTPUT
-```
-
-### Core principle
-
-**Data → Intelligence → Bounded Authority → Automation → Observable Output**
-
-For consequential agent actions:
-
-**Reasoning ≠ Authorization ≠ Execution**
-
----
-
-# 🧩 Technology
-
-**AI:** LLMs · RAG · Agents · Generative AI · NLP · Vision AI
-
-**AI Safety & Security:** Policy Engines · Least Privilege · Tool Allowlisting · Identity Boundaries · Auditability · Adversarial Evaluation
-
-**Data:** Python · SQL · pandas · NumPy · ETL / ELT · Power BI
-
-**Automation:** RPA · APIs · Selenium · Workflow Automation
-
-**Document Intelligence:** OCR · OpenCV · Tesseract · pdf.js · pdf-lib · SheetJS
-
-**Backend:** FastAPI · REST · JSON · API-first architecture
-
-**Engineering:** Git · GitHub · GitHub Actions · CI/CD · pytest · Ruff · Bandit
-
-**Cloud & Private AI:** AWS · Local LLMs · Private AI architectures
-
----
-
-# 🔬 Engineering Standards
-
-- **Privacy by Design** — public repositories use public, synthetic or anonymized data.
-- **Security by Design** — consequential actions require explicit controls and defined boundaries.
-- **Least Privilege** — agents receive only the capabilities required for their task.
-- **Reproducibility** — code, dependencies and experiments are versioned and documented.
-- **Auditability** — important processing and decision points remain observable and traceable.
-- **Production Mindset** — testing, maintenance, monitoring and deployment are considered from the start.
-- **Measurable AI** — automation should demonstrate concrete operational value.
-
----
-
-# 📈 Engineering Journey
-
-```
+```text
 Data
   ↓
-Automation
+Ingestion / ETL
   ↓
-AI Applications
+Validation
   ↓
-RAG
+ML / LLM / RAG
   ↓
-Agents
+Agents / MCP / Tools
   ↓
-MCP
+Policy + Security
   ↓
-AI Safety
+Authorization
   ↓
-Production-Oriented AI
+Execution
+  ↓
+Audit / Observability
 ```
 
-The portfolio demonstrates **architecture, implementation, testing, security, reproducibility and collaboration** rather than isolated experiments.
+For consequential AI systems:
+
+```text
+Reasoning ≠ Authorization ≠ Execution
+```
 
 ---
 
-# 🎓 Education
+# Engineering Standards
 
-**MBA em Ciência de Dados, Analytics e Inteligência Artificial — USP/Esalq**  
+- **Security by Design** — consequential capabilities have explicit boundaries.
+- **Least Privilege** — agents receive only the capabilities required for their task.
+- **Threat Modeling** — security assumptions and attack surfaces are documented.
+- **Adversarial Evaluation** — security claims should be supported by reproducible tests.
+- **Reproducibility** — dependencies, experiments and results are versioned.
+- **Observability** — important execution paths should be traceable.
+- **Production Mindset** — testing, CI/CD, failure modes and maintenance matter.
+- **Privacy by Design** — public repositories use public, synthetic or anonymized data.
+
+---
+
+# Technical Focus
+
+**AI Engineering:** Python · LLMs · Agents · RAG · Generative AI · NLP · Vision AI
+
+**AI Safety & Security:** Policy Engines · Tool Authorization · Least Privilege · MCP Security · Threat Modeling · Adversarial Evaluation · Auditability
+
+**Data:** SQL · pandas · NumPy · ETL / ELT · Power BI
+
+**Backend:** FastAPI · REST · APIs · JSON
+
+**Document Intelligence:** OCR · OpenCV · Tesseract · PDF processing
+
+**Engineering:** Git · GitHub Actions · pytest · Ruff · Bandit · Docker · CI/CD
+
+**AI Infrastructure:** Local LLMs · Private AI · AWS · Observability
+
+---
+
+# Open Source
+
+I use public repositories to document engineering decisions, experiments, security controls and reproducible results.
+
+Contributions and technical discussion are welcome, particularly around:
+
+- AI agent security
+- MCP security
+- policy enforcement
+- evaluation
+- RAG
+- AI infrastructure
+- Document Intelligence
+
+---
+
+# Education
+
+**MBA — Data Science, Analytics & Artificial Intelligence — USP/Esalq**  
 2026–2027
 
-**Tecnologia em Banco de Dados — FIAP**  
+**Technology in Database — FIAP**  
 Completed · 2022
 
 ---
 
-# 💼 Professional Focus
+# Contact
 
-**AI Engineer · Applied AI · AI Safety**
+**Anderson Leon Ayora**
 
-Agentic Systems · RAG · MCP · Document Intelligence · OCR · Intelligent Automation · AI Security · Data Engineering · Machine Learning · Private / Local AI
+AI Engineer · Applied AI · AI Safety
 
----
+<a href="https://www.linkedin.com/in/anderson-leon-ayora">LinkedIn</a> ·
+<a href="https://github.com/Ayorinha">GitHub</a>
 
-# 📫 Connect
-
-<p>
-  <a href="https://www.linkedin.com/in/anderson-leon-ayora"><img src="https://img.shields.io/badge/LinkedIn-00d4ff?style=for-the-badge&logo=linkedin&logoColor=081522"></a>
-  <a href="https://github.com/Ayorinha"><img src="https://img.shields.io/badge/GitHub-00e676?style=for-the-badge&logo=github&logoColor=081522"></a>
-</p>
-
-<p align="center"><strong>AYORAI</strong><br>Applied AI · AI Engineering · AI Safety</p>
+<p align="center"><strong>AYORAI · Applied Intelligence</strong></p>
