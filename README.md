@@ -428,6 +428,18 @@ Completed · 2022
 
 ---
 
+---
+
+## 📄 License
+
+This portfolio and its original source code are released under the **MIT License**.
+
+[View MIT License](LICENSE)
+
+Copyright © 2026 Anderson Leon Ayora
+
+---
+
 <p align="center">
   <strong>AYORAI · Applied Intelligence</strong><br/>
   <sub>Applied AI · AI Engineering · AI Safety</sub>
