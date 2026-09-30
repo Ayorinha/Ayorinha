@@ -21,7 +21,7 @@ My portfolio is organized around one principle:
 
 ## 🏆 Engineering Evidence
 
-**GitHub achievements:** YOLO · Quickdraw · Pull Shark
+**Verified engineering evidence:** AYORAI ATTRACTOR — CI green on Python 3.11–3.13 · coverage ratchet verified at 73% · strict typing on the evidence core · frozen golden set (34 cases, 52 documents, SHA-256 manifest) · honest baseline published at 43.3333% (equal to the majority-class baseline).
 
 **Primary engineering themes:** AI Safety · Agent Security · Agentic Systems · RAG · MCP · Document Intelligence · Automation · Data Engineering
 
@@ -58,7 +58,19 @@ GitHub Pages
 
 ---
 
-### 02 · AYORAI AI Shield
+
+### 02 · AYORAI ATTRACTOR
+**Evidence-first multi-agent intelligence and verification engine**
+
+[Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Baseline v0](https://github.com/Ayorinha/ayorai-opensearch/blob/main/docs/eval/BASELINE-v0.md) · Release v0.1.0: **not published yet** (the available GitHub connector cannot create GitHub Releases/tags).
+
+ATTRACTOR addresses a specific verification problem: a citation can exist without actually supporting the claim it is attached to. The project separates evidence from model output and defines explicit rules for source independence, contradiction and provenance.
+
+**Status verificado:** Phase 0 concluída; golden v0 congelado com 34 casos e 52 documentos; baseline real publicado pelo GitHub Actions em 43.3333%, exatamente igual à classe majoritária PARTIALLY_SUPPORTED. R1 is the next implementation phase and has not yet been started.
+
+**Evidence:** [freeze/baseline Actions run](https://github.com/Ayorinha/ayorai-opensearch/actions/runs/36759101933) · [Green Wall](https://github.com/Ayorinha/ayorai-opensearch/actions/runs/36759109543)
+
+### 04 · AYORAI AI Shield
 **Deterministic runtime security for autonomous AI agents**
 
 [Repository](https://github.com/Ayorinha/ayorai-vision-intelligence)
@@ -124,7 +136,7 @@ Result
 
 ---
 
-### 04 · AgentHound
+### 05 · AgentHound
 **Security analysis of multi-agent architectures**
 
 [Repository](https://github.com/Ayorinha/AgentHound)
@@ -153,7 +165,7 @@ FastAPI + Next.js UI
 
 ---
 
-### 05 · MCP-Sentinel
+### 06 · MCP-Sentinel
 **Security gateway for Model Context Protocol environments**
 
 [Repository](https://github.com/Ayorinha/MCP-Sentinel)
@@ -180,7 +192,7 @@ Pipeline Result
 
 ---
 
-### 06 · AyorGraph
+### 07 · AyorGraph
 **Explicit graph orchestration for AI agents**
 
 [Repository](https://github.com/Ayorinha/AyorGraph)
@@ -207,7 +219,7 @@ Output
 
 ---
 
-### 07 · RAG Framework
+### 08 · RAG Framework
 **Modular Retrieval-Augmented Generation framework**
 
 [Repository](https://github.com/Ayorinha/RAG-framework)
@@ -238,7 +250,7 @@ Answer + Sources
 
 ---
 
-### 08 · vault-mcp
+### 09 · vault-mcp
 **Private knowledge access through MCP**
 
 [Repository](https://github.com/Ayorinha/vault-mcp)
@@ -267,7 +279,7 @@ Audit / Telemetry
 
 ---
 
-### 09 · Hybrid Data Management RPA Pipeline
+### 10 · Hybrid Data Management RPA Pipeline
 **Validation-first operational data pipeline**
 
 [Repository](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)
@@ -294,7 +306,7 @@ Validated Dataset
 
 ---
 
-### 10 · AYORAI Financial Control
+### 11 · AYORAI Financial Control
 **Synthetic financial reconciliation and state analytics**
 
 [Repository](https://github.com/Ayorinha/project-ayorai-financial-control)
