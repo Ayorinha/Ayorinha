@@ -428,8 +428,6 @@ Completed · 2022
 
 ---
 
----
-
 ## 📄 License
 
 This portfolio and its original source code are released under the **MIT License**.
