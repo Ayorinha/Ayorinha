@@ -21,7 +21,7 @@ My portfolio is organized around one principle:
 
 ## 🏆 Engineering Evidence
 
-**Verified engineering evidence:** AYORAI ATTRACTOR — CI green on Python 3.11–3.13 · coverage ratchet verified at 73% · strict typing on the evidence core · frozen golden set (34 cases, 52 documents, SHA-256 manifest) · honest baseline published at 43.3333% (equal to the majority-class baseline).
+**Verified engineering evidence:** AYORAI ATTRACTOR — CI green on Python 3.11–3.13 · coverage ratchet verified at 73% · strict typing on the evidence core · frozen golden set (34 cases, 52 documents, SHA-256 manifest) · honest baseline published at 43.33% (equal to the majority-class baseline).
 
 **Primary engineering themes:** AI Safety · Agent Security · Agentic Systems · RAG · MCP · Document Intelligence · Automation · Data Engineering
 
@@ -60,17 +60,17 @@ GitHub Pages
 
 
 ### 02 · AYORAI ATTRACTOR
-**Evidence-first multi-agent intelligence and verification engine**
+**Evidence-first claim-level verification engine**
 
-[Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Baseline v0](https://github.com/Ayorinha/ayorai-opensearch/blob/main/docs/eval/BASELINE-v0.md) · Release v0.1.0: **not published yet** (the available GitHub connector cannot create GitHub Releases/tags).
+[Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Baseline v0](https://github.com/Ayorinha/ayorai-opensearch/blob/main/docs/eval/BASELINE-v0.md)
 
-ATTRACTOR addresses a specific verification problem: a citation can exist without actually supporting the claim it is attached to. The project separates evidence from model output and defines explicit rules for source independence, contradiction and provenance.
+ATTRACTOR addresses a specific problem: a citation can exist without actually supporting the claim it is attached to. The project separates evidence from model output and defines explicit, deterministic rules for source independence, contradiction and provenance.
 
-**Status verificado:** Phase 0 concluída; golden v0 congelado com 34 casos e 52 documentos; baseline real publicado pelo GitHub Actions em 43.3333%, exatamente igual à classe majoritária PARTIALLY_SUPPORTED. R1 is the next implementation phase and has not yet been started.
+**Verified status:** Phase 0 complete. Golden set v0 frozen at 34 cases and 52 documents (SHA-256 manifest). Baseline measured by GitHub Actions at 43.33%, exactly equal to the majority class — the verification engine is not implemented yet. R1 (claim-level verification engine) is next.
 
-**Evidence:** [freeze/baseline Actions run](https://github.com/Ayorinha/ayorai-opensearch/actions/runs/36759101933) · [Green Wall](https://github.com/Ayorinha/ayorai-opensearch/actions/runs/36759109543)
+**Evidence:** [Baseline run](https://github.com/Ayorinha/ayorai-opensearch/actions/runs/36759101933) · [Green Wall](https://github.com/Ayorinha/ayorai-opensearch/actions/runs/36759109543)
 
-### 04 · AYORAI AI Shield
+### 03 · AYORAI AI Shield
 **Deterministic runtime security for autonomous AI agents**
 
 [Repository](https://github.com/Ayorinha/ayorai-vision-intelligence)
@@ -103,7 +103,7 @@ Provenance / Audit
 
 ---
 
-### 03 · AYORAI
+### 04 · AYORAI
 **Agentic AI engineering framework**
 
 [Repository](https://github.com/Ayorinha/ayorai)
