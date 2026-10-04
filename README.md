@@ -41,29 +41,63 @@ A public-facing intelligence platform combining automated technology ingestion, 
 ---
 
 ## 02 · AYORAI ATTRACTOR
-### Evidence-first claim-level verification
+### Evidence-first AI verification
 
 [Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
 
-Checks whether a claim is actually supported by the sources cited for it. ATTRACTOR is the portfolio's **verification and evaluation layer**.
+> **AI can produce an answer. ATTRACTOR asks: where is the evidence?**
+
+**ATTRACTOR** is an evidence-verification layer for AI systems that transforms claims into **traceable, reproducible and auditable** verification results.
 
 ```text
-Claim
-  ↓
-Evidence
-  ↓
-Stance
-  ↓
-Provenance
-  ↓
-Evidence Clusters
-  ↓
-Deterministic Judge
-  ↓
-Auditable Verdict
+                    AI / Human Claim
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │   Evidence  │
+                    └──────┬──────┘
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │    Stance   │
+                    └──────┬──────┘
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │ Provenance  │
+                    └──────┬──────┘
+                           │
+                           ▼
+                 ┌───────────────────┐
+                 │ Evidence Clusters │
+                 └─────────┬─────────┘
+                           │
+                           ▼
+                 ┌───────────────────┐
+                 │ Deterministic     │
+                 │      Judge        │
+                 └─────────┬─────────┘
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │   Verdict   │
+                    └──────┬──────┘
+                           │
+                           ▼
+                    Auditable Record
 ```
 
-**Evidence**
+**Core principle:** **LLM ≠ Judge.** The model may help discover or interpret evidence, but final verification is determined by **explicit, auditable rules**.
+
+### Governance and regulated environments
+
+ATTRACTOR is designed for scenarios where **traceability, integrity, security and auditability** matter, including financial and regulated environments.
+
+It can support governance and validation processes involving evidence, provenance and reproducibility. It **does not claim regulatory compliance by itself**.
+
+Relevant Brazilian references include the **LGPD (Law No. 13,709/2018)** and, for covered institutions, **CMN Resolution No. 4,893/2021**, in its current form.
+
+### Experimental evidence
 
 - Golden v0: **34 cases · 52 documents · SHA-256 manifest**
 - F1 evaluation evidence: **76.67% · 66.67% · 33.33%**
@@ -74,8 +108,7 @@ Auditable Verdict
 
 **Evaluation classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
 
-**Core principle:** **LLM ≠ Judge.** Final verification is determined by explicit, auditable rules.
-
+> **Do not trust the AI response alone. Verify the evidence.**
 ---
 
 ## 03 · AYORAI AI Shield
