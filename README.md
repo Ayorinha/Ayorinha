@@ -13,15 +13,13 @@
 
 > I build AI systems where **reasoning, authority and execution are explicit engineering boundaries**.
 
-My portfolio is organized around one principle:
-
 **Intelligence ≠ Authorization ≠ Execution**
 
 ---
 
 ## Engineering Focus
 
-My portfolio focuses on **Applied AI, AI Engineering and AI Safety**. The projects are designed as engineering systems rather than isolated demos, with emphasis on:
+My portfolio focuses on **Applied AI, AI Engineering and AI Safety**, with emphasis on:
 
 **Architecture · Security · Evaluation · Reproducibility · Observability · Governance**
 
@@ -31,16 +29,23 @@ The work spans agentic systems, RAG, MCP, document intelligence, data pipelines 
 
 # Featured Projects
 
-<div align="center">
+## 01 · Global Tech News AI
+### Public technology intelligence platform
 
-## 01 · AYORAI ATTRACTOR
+[Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
+
+A public-facing intelligence platform combining automated technology ingestion, structured data, AI tooling intelligence and an AI Safety laboratory.
+
+**Role in the portfolio:** public intelligence and research layer.
+
+---
+
+## 02 · AYORAI ATTRACTOR
 ### Evidence-first claim-level verification
-
-**Checks whether a claim is actually supported by the sources cited for it.**
 
 [Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
 
-ATTRACTOR is the portfolio's **verification and evaluation layer**. It models the evidence chain explicitly instead of treating an LLM response as proof.
+Checks whether a claim is actually supported by the sources cited for it. ATTRACTOR is the portfolio's **verification and evaluation layer**.
 
 ```text
 Claim
@@ -69,18 +74,16 @@ Auditable Verdict
 
 **Evaluation classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
 
-**Core principle:** **LLM ≠ Judge.** Model output may provide evidence or hypotheses; the final verification state is determined by explicit, auditable rules.
+**Core principle:** **LLM ≠ Judge.** Final verification is determined by explicit, auditable rules.
 
 ---
 
-## 02 · AYORAI AI Shield
+## 03 · AYORAI AI Shield
 ### Deterministic runtime defense for autonomous AI agents
 
 [Repository](https://github.com/Ayorinha/ayorai-vision-intelligence)
 
-</div>
-
-The flagship AI Safety project. The model may propose an action, but execution requires deterministic policy, identity, authorization and security controls.
+A security boundary where model intent does not automatically become executable authority.
 
 ```text
 Agent
@@ -102,104 +105,81 @@ Tool Execution
 Provenance / Audit
 ```
 
-**Demonstrates:** least privilege · fail-closed controls · threat modeling · MCP security · adversarial evaluation · auditability · CI/CD · security testing.
+**Focus:** least privilege · fail-closed controls · MCP security · threat modeling · adversarial evaluation · auditability.
 
 ---
 
-### 03 · AYORAI
+## 04 · AYORAI
 **Agentic AI engineering framework**
 
 [Repository](https://github.com/Ayorinha/ayorai)
 
-A modular foundation for agents, orchestration, safety controls, memory, RAG, MCP and governed tools.
+Modular foundations for agents, orchestration, memory, RAG, MCP and governed tools.
 
----
-
-### 04 · AgentHound
+## 05 · AgentHound
 **Security analysis of multi-agent architectures**
 
 [Repository](https://github.com/Ayorinha/AgentHound)
 
-Analyzes agent architectures for risky capability paths using a normalized graph model and rule engine.
+Graph-based analysis of agent capabilities, trust boundaries and risky execution paths.
 
----
-
-### 05 · MCP-Sentinel
-**Security gateway for Model Context Protocol environments**
+## 06 · MCP-Sentinel
+**MCP security gateway**
 
 [Repository](https://github.com/Ayorinha/MCP-Sentinel)
 
-Deterministic authorization boundary for MCP tools with schema validation, least privilege and structured audit decisions.
+Deterministic authorization and validation for Model Context Protocol tools.
 
----
-
-### 06 · AyorGraph
-**Explicit graph orchestration for AI agents**
+## 07 · AyorGraph
+**Explicit graph orchestration**
 
 [Repository](https://github.com/Ayorinha/AyorGraph)
 
-Represents agents, tools, validation and execution paths as an explicit graph instead of an opaque chain.
+Makes agents, tools, validation and execution paths explicit and inspectable.
 
----
-
-### 07 · RAG Framework
-**Modular Retrieval-Augmented Generation framework**
+## 08 · RAG Framework
+**Modular retrieval architecture**
 
 [Repository](https://github.com/Ayorinha/RAG-framework)
 
-Separates loaders, chunkers, embedders, retrievers, rerankers and generators behind explicit contracts.
+Contract-based loaders, chunkers, embeddings, retrieval, reranking and generation.
 
----
-
-### 08 · vault-mcp
+## 09 · vault-mcp
 **Private knowledge access through MCP**
 
 [Repository](https://github.com/Ayorinha/vault-mcp)
 
-MCP-based access layer for local knowledge bases, hybrid search, semantic retrieval and controlled tool access.
+Controlled access to local knowledge bases through MCP, hybrid search and semantic retrieval.
 
----
-
-### 09 · Hybrid Data Management RPA Pipeline
-**Validation-first operational data pipeline**
+## 10 · Hybrid Data Management RPA Pipeline
+**Validation-first operational data**
 
 [Repository](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)
 
-A reproducible foundation for RPA-ready data workflows and operational data quality.
+Reproducible foundations for RPA-ready workflows and operational data quality.
 
----
-
-### 10 · AYORAI Financial Control
-**Synthetic financial reconciliation and state analytics**
+## 11 · AYORAI Financial Control
+**Synthetic financial reconciliation**
 
 [Repository](https://github.com/Ayorinha/project-ayorai-financial-control)
 
-Runnable synthetic-data project for reconciliation, settlement analysis and state-level aggregation.
-
----
-
-### 11 · Global Tech News AI
-**Public technology intelligence platform**
-
-[Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
-
-Public-facing intelligence hub combining automated ingestion, structured data, AI tooling intelligence and a defensive AI laboratory.
+Synthetic-data environment for reconciliation, settlement analysis and state-level aggregation.
 
 ---
 
 # Portfolio Architecture
 
-The projects form a layered engineering portfolio rather than a collection of unrelated repositories.
+The projects form a layered engineering portfolio:
 
 ```text
                  AYORAI · APPLIED INTELLIGENCE
                             │
           ┌─────────────────┼─────────────────┐
           │                 │                 │
-      AI / RAG         Agentic Systems     Data / Docs
+     Intelligence       Agentic AI       Data / Docs
           │                 │                 │
    Global Tech News    AYORAI / AyorGraph   RAG
-   Document AI         AgentHound           Data Pipelines
+   ATTRACTOR           AgentHound           Data Pipelines
                        MCP-Sentinel         Financial Control
                        AI Shield
           │                 │                 │
@@ -207,7 +187,7 @@ The projects form a layered engineering portfolio rather than a collection of un
                             ↓
                   Security + Governance
                             ↓
-                    Authorization / Policy
+                  Authorization / Policy
                             ↓
                         Execution
                             ↓
@@ -224,23 +204,19 @@ Authorization
 Execution
 ```
 
-This separation is the foundation of the AI Safety work.
-
 ---
 
 # Engineering Standards
 
-Every serious project is progressively evaluated against:
-
 | Layer | Evidence |
 |---|---|
 | Architecture | Explicit components, boundaries and data flow |
-| Security | Threat model, least privilege, fail-closed controls |
+| Security | Threat models, least privilege and fail-closed controls |
 | Quality | Tests, linting and static analysis |
 | Reproducibility | Deterministic examples and documented setup |
-| Observability | Logs, events, traces or audit evidence |
 | Evaluation | Regression tests and measurable validation |
-| Delivery | GitHub Actions / CI/CD where applicable |
+| Observability | Logs, traces, metrics or audit evidence |
+| Delivery | CI/CD and automated quality gates |
 | Documentation | Architecture, assumptions, limitations and roadmap |
 | Privacy | Public, synthetic or anonymized data |
 
@@ -265,7 +241,7 @@ Git · GitHub Actions · pytest · Ruff · mypy · Bandit · Dependency Auditing
 
 ---
 
-# Portfolio
+# Links
 
 **AYORAI · Applied Intelligence**  
 https://ayorinha.github.io/global-tech-news-ai/
@@ -278,7 +254,7 @@ https://www.linkedin.com/in/anderson-leon-ayora
 
 ---
 
-## Education
+# Education
 
 **MBA — Data Science, Analytics & Artificial Intelligence — USP/Esalq**  
 2026–2027
@@ -288,15 +264,13 @@ Completed · 2022
 
 ---
 
-## 📄 License
+## License
 
 This portfolio and its original source code are released under the **MIT License**.
 
 [View MIT License](LICENSE)
 
 Copyright © 2026 Anderson Leon Ayora
-
----
 
 <p align="center">
   <strong>AYORAI · Applied Intelligence</strong><br/>
