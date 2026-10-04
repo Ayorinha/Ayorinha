@@ -31,53 +31,61 @@ This profile intentionally surfaces the projects that best demonstrate **archite
 
 # ⭐ Featured Projects
 
-### 01 · Global Tech News AI
-**Public intelligence platform + AYORAI engineering portfolio**
+<div align="center">
 
-[Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
+## 01 · AYORAI ATTRACTOR
+### Evidence-first claim-level verification
 
-A public-facing technology intelligence platform combining automated ingestion, structured data, AI tooling intelligence, a defensive AI laboratory and curated engineering projects.
+**Checks whether a claim is actually supported by the sources cited for it.**
+
+[Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Baseline / Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
+
+</div>
+
+> **ATTRACTOR is the evaluation and verification layer of the portfolio:** it separates claims, evidence, stance, provenance and deterministic judgment instead of treating an LLM response as proof.
+
+**Current evidence**
+
+- Golden v0 frozen: **34 cases · 52 documents**
+- Frozen SHA-256 manifest
+- Deterministic Judge: **6/6 fixtures passing**
+- CI: **Python 3.11 · 3.12 · 3.13**
+- Ruff + mypy + pytest + CodeQL + workflow-lint
+- Majority baseline: **43.33%**, explicitly reported rather than hidden
 
 **Architecture**
 
 ```text
-Public Sources / RSS
-        ↓
-Python Ingestion
-        ↓
-Normalization + Translation
-        ↓
-Structured Evidence / JSON
-        ↓
-News · AI Index · Security Lab
-        ↓
-GitHub Pages
+Claim
+  ↓
+Evidence
+  ↓
+Stance
+  ↓
+Clusters / Provenance
+  ↓
+Deterministic Judge
+  ↓
+VERIFIED · SUPPORTED · PARTIALLY_SUPPORTED
+CONFLICTING · REFUTED · UNVERIFIED
+  ↓
+Auditable verdict
 ```
 
-**Demonstrates:** Python pipelines · automation · public-data engineering · GitHub Actions · static web architecture · AI security research communication.
+**Why it matters:** ATTRACTOR turns citation verification into an explicit engineering problem with reproducible evaluation, rather than relying on an opaque LLM-as-judge pattern.
 
 ---
 
+<div align="center">
 
-### 02 · AYORAI ATTRACTOR
-**Evidence-first claim-level verification engine**
-
-[Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Baseline v0](https://github.com/Ayorinha/ayorai-opensearch/blob/main/docs/eval/BASELINE-v0.md)
-
-ATTRACTOR addresses a specific problem: a citation can exist without actually supporting the claim it is attached to. The project separates evidence from model output and defines explicit, deterministic rules for source independence, contradiction and provenance.
-
-**Verified status:** Phase 0 complete. Golden set v0 frozen at 34 cases and 52 documents (SHA-256 manifest). Baseline measured by GitHub Actions at 43.33%, exactly equal to the majority class — the verification engine is not implemented yet. R1 (claim-level verification engine) is next.
-
-**Evidence:** [Baseline run](https://github.com/Ayorinha/ayorai-opensearch/actions/runs/36759101933) · [Green Wall](https://github.com/Ayorinha/ayorai-opensearch/actions/runs/36759109543)
-
-### 03 · AYORAI AI Shield
-**Deterministic runtime security for autonomous AI agents**
+## 02 · AYORAI AI Shield
+### Deterministic runtime defense for autonomous AI agents
 
 [Repository](https://github.com/Ayorinha/ayorai-vision-intelligence)
 
-The flagship AI Safety project. The model may propose an action, but execution requires deterministic policy, identity, authorization and security controls.
+</div>
 
-**Architecture**
+The flagship AI Safety project. The model may propose an action, but execution requires deterministic policy, identity, authorization and security controls.
 
 ```text
 Agent
@@ -103,231 +111,84 @@ Provenance / Audit
 
 ---
 
-### 04 · AYORAI
+### 03 · AYORAI
 **Agentic AI engineering framework**
 
 [Repository](https://github.com/Ayorinha/ayorai)
 
 A modular foundation for agents, orchestration, safety controls, memory, RAG, MCP and governed tools.
 
-**Architecture**
-
-```text
-User
- ↓
-Shield
- ↓
-Planner
- ↓
-Router
- ├── Research Agent
- ├── Analyst Agent
- ├── Security Agent
- └── Reviewer Agent
- ↓
-Policy / Tool / MCP / Memory Controls
- ↓
-Audit
- ↓
-Result
-```
-
-**Demonstrates:** multi-agent architecture · orchestration · contracts · safety boundaries · RAG interfaces · MCP · automated testing.
-
 ---
 
-### 05 · AgentHound
+### 04 · AgentHound
 **Security analysis of multi-agent architectures**
 
 [Repository](https://github.com/Ayorinha/AgentHound)
 
-Analyzes CrewAI, Dify, LangGraph and generic YAML architectures for risky capability paths using a normalized graph model and rule engine.
-
-**Architecture**
-
-```text
-Architecture YAML
-       ↓
-Parser / Adapter
-       ↓
-Normalized IR
-       ↓
-Capability Graph
-       ↓
-Rule Engine
-       ↓
-Findings + Risk Metrics
-       ↓
-FastAPI + Next.js UI
-```
-
-**Demonstrates:** threat modeling · graph analysis · FastAPI · NetworkX · frontend/backend integration · security rules · simulation.
+Analyzes agent architectures for risky capability paths using a normalized graph model and rule engine.
 
 ---
 
-### 06 · MCP-Sentinel
+### 05 · MCP-Sentinel
 **Security gateway for Model Context Protocol environments**
 
 [Repository](https://github.com/Ayorinha/MCP-Sentinel)
 
 Deterministic authorization boundary for MCP tools with schema validation, least privilege and structured audit decisions.
 
-**Architecture**
-
-```text
-Tool Request
-     ↓
-Validation / Guard
-     ↓
-Policy Engine
-     ↓
-Allow / Deny
-     ↓
-Audit Decision
-     ↓
-Pipeline Result
-```
-
-**Demonstrates:** MCP security · deterministic policy · resource validation · auditability · fail-closed behavior · release engineering.
-
 ---
 
-### 07 · AyorGraph
+### 06 · AyorGraph
 **Explicit graph orchestration for AI agents**
 
 [Repository](https://github.com/Ayorinha/AyorGraph)
 
 Represents agents, tools, validation and execution paths as an explicit graph instead of an opaque chain.
 
-**Architecture**
-
-```text
-Input
-  ↓
-Agent A
-  ↓
-Agent B / Tool
-  ↓
-Validation
-  ↓
-Output
-  ↘
-   Trace / Events
-```
-
-**Demonstrates:** orchestration · deterministic workflows · validation · tracing · testability · observable agent execution.
-
 ---
 
-### 08 · RAG Framework
+### 07 · RAG Framework
 **Modular Retrieval-Augmented Generation framework**
 
 [Repository](https://github.com/Ayorinha/RAG-framework)
 
-A modular Python framework separating loaders, chunkers, embedders, retrievers, rerankers and generators behind explicit contracts.
-
-**Architecture**
-
-```text
-Documents
-   ↓
-Loader
-   ↓
-Chunker
-   ↓
-Embedder
-   ↓
-Retriever
-   ↓
-Reranker
-   ↓
-Generator
-   ↓
-Answer + Sources
-```
-
-**Demonstrates:** RAG architecture · abstraction design · extensibility · testing · vector retrieval · local/remote model integration.
+Separates loaders, chunkers, embedders, retrievers, rerankers and generators behind explicit contracts.
 
 ---
 
-### 09 · vault-mcp
+### 08 · vault-mcp
 **Private knowledge access through MCP**
 
 [Repository](https://github.com/Ayorinha/vault-mcp)
 
-MCP-based access layer for local knowledge bases, combining filesystem access, hybrid search, semantic retrieval, controlled writes and observability.
-
-**Architecture**
-
-```text
-AI Agent
-   ↓
-MCP Server
-   ↓
-Tool Authorization
-   ↓
-Hybrid Search / Retrieval
-   ↓
-Local Knowledge Store
-   ↓
-Controlled Read / Write
-   ↓
-Audit / Telemetry
-```
-
-**Demonstrates:** MCP · private/local AI · semantic search · knowledge systems · tool interfaces · operational observability.
+MCP-based access layer for local knowledge bases, hybrid search, semantic retrieval and controlled tool access.
 
 ---
 
-### 10 · Hybrid Data Management RPA Pipeline
+### 09 · Hybrid Data Management RPA Pipeline
 **Validation-first operational data pipeline**
 
 [Repository](https://github.com/Ayorinha/hybrid-data-management-rpa-pipeline)
 
-A small, reproducible foundation for RPA-ready data workflows.
-
-**Architecture**
-
-```text
-CSV / XLSX
-   ↓
-Schema Validation
-   ↓
-Type Normalization
-   ↓
-Status Normalization
-   ↓
-Operational Flags
-   ↓
-Validated Dataset
-```
-
-**Demonstrates:** Python · data quality · ETL/ELT thinking · operational automation · reproducible pipelines.
+A reproducible foundation for RPA-ready data workflows and operational data quality.
 
 ---
 
-### 11 · AYORAI Financial Control
+### 10 · AYORAI Financial Control
 **Synthetic financial reconciliation and state analytics**
 
 [Repository](https://github.com/Ayorinha/project-ayorai-financial-control)
 
 Runnable synthetic-data project for reconciliation, settlement analysis and state-level aggregation.
 
-**Architecture**
+---
 
-```text
-Synthetic Transactions
-        ↓
-Reconciliation
-        ↓
-Financial Metrics
-        ↓
-State Aggregation
-        ↓
-CSV Reports
-```
+### 11 · Global Tech News AI
+**Public technology intelligence platform**
 
-**Demonstrates:** financial analytics · data processing · reconciliation logic · reproducible reporting.
+[Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
+
+Public-facing intelligence hub combining automated ingestion, structured data, AI tooling intelligence and a defensive AI laboratory.
 
 ---
 
