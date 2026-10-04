@@ -29,21 +29,12 @@ The work spans agentic systems, RAG, MCP, document intelligence, data pipelines 
 
 # Featured Projects
 
-## 02 · Global Tech News AI
-### Public technology intelligence platform
-
-[Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
-
-A public-facing intelligence platform combining automated technology ingestion, structured data, AI tooling intelligence and an AI Safety laboratory.
-
-**Role in the portfolio:** public intelligence and research layer.
-
----
-
 ## 01 · AYORAI ATTRACTOR
 ### Evidence-first AI verification
 
 [Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
+
+[For partners and investors](https://github.com/Ayorinha/ayorai-opensearch/blob/main/docs/INVESTIDORES.md)
 
 > **AI can produce an answer. ATTRACTOR asks: where is the evidence?**
 
@@ -95,12 +86,14 @@ ATTRACTOR is designed for scenarios where **traceability, integrity, security an
 
 It can support governance and validation processes involving evidence, provenance and reproducibility. It **does not claim regulatory compliance by itself**.
 
-Relevant Brazilian reference: the **LGPD (Law No. 13,709/2018)**. The architecture is also designed to support controls informed by **normas de reguladores do sistema financeiro e do mercado de capitais**, without asserting regulatory compliance by itself.
+Relevant Brazilian reference: the **LGPD (Law No. 13,709/2018)**. The architecture is also designed to support controls informed by **rules issued by financial-system and capital-market regulators**, without asserting regulatory compliance by itself.
 
 ### Experimental evidence
 
 - Golden v0: **34 cases · 52 documents · SHA-256 manifest** (development/evaluation set)
-- F1 evaluation: **A 76.67% · B 66.67% · C 33.33%** on Golden v0.1; **43.33%** frozen majority baseline
+- F1 evaluation on Golden v0.1 (30 claims, frozen majority baseline 43.33%):
+- Path B (commercial candidate): **66.67%**, exact binomial p = 0.0085 vs. baseline · Path A (research-only, EVAL_ONLY license): 76.67% · Path C (rules): 33.33%
+- Development sets use English documents; Portuguese performance will be measured on the hidden Golden v1
 - Deterministic Judge: **6/6 public smoke fixtures passing**
 - CI: **Python 3.11 · 3.12 · 3.13** with Ruff, mypy, pytest, CodeQL and workflow-lint
 - Release: **v0.3.0** · DOI: **10.5281/zenodo.23125083**
@@ -108,6 +101,18 @@ Relevant Brazilian reference: the **LGPD (Law No. 13,709/2018)**. The architectu
 **Evaluation classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
 
 > **Do not trust the AI response alone. Verify the evidence.**
+
+---
+
+## 02 · Global Tech News AI
+### Public technology intelligence platform
+
+[Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
+
+A public-facing intelligence platform combining automated technology ingestion, structured data, AI tooling intelligence and an AI Safety laboratory.
+
+**Role in the portfolio:** public intelligence and research layer.
+
 ---
 
 ## 03 · AYORAI AI Shield
