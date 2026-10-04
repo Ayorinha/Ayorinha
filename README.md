@@ -19,17 +19,17 @@ My portfolio is organized around one principle:
 
 ---
 
-## 🏆 Engineering Evidence
+## Engineering Focus
 
-**Verified engineering evidence:** AYORAI ATTRACTOR — F1 evaluation evidence at **76.67% / 66.67% / 33.33%**, with the historical **43.33%** majority-class baseline explicitly retained for comparison · CI on Python 3.11–3.13 · coverage ratchet verified at 73% · strict typing on the evidence core · frozen golden set (34 cases, 52 documents, SHA-256 manifest).
+My portfolio focuses on **Applied AI, AI Engineering and AI Safety**. The projects are designed as engineering systems rather than isolated demos, with emphasis on:
 
-**Primary engineering themes:** AI Safety · Agent Security · Agentic Systems · RAG · MCP · Document Intelligence · Automation · Data Engineering
+**Architecture · Security · Evaluation · Reproducibility · Observability · Governance**
 
-This profile intentionally surfaces the projects that best demonstrate **architecture, security, reproducibility, testing, observability and production-oriented engineering** rather than a large collection of isolated demos.
+The work spans agentic systems, RAG, MCP, document intelligence, data pipelines and deterministic controls for AI-assisted execution.
 
 ---
 
-# ⭐ Featured Projects
+# Featured Projects
 
 <div align="center">
 
@@ -38,24 +38,9 @@ This profile intentionally surfaces the projects that best demonstrate **archite
 
 **Checks whether a claim is actually supported by the sources cited for it.**
 
-[Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Baseline / Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
+[Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
 
-</div>
-
-> **ATTRACTOR is the evaluation and verification layer of the portfolio:** it separates claims, evidence, stance, provenance and deterministic judgment instead of treating an LLM response as proof.
-
-**Current evidence**
-
-- Golden v0 frozen: **34 cases · 52 documents**
-- Frozen SHA-256 manifest
-- F1 evaluation evidence: **76.67% / 66.67% / 33.33%**
-- Historical majority-class baseline: **43.33%**
-- Scenario classification: **A = EVAL_ONLY · B = Commercial Candidate**
-- Deterministic Judge: **6/6 fixtures passing**
-- CI: **Python 3.11 · 3.12 · 3.13**
-- Ruff + mypy + pytest + CodeQL + workflow-lint
-
-**Architecture**
+ATTRACTOR is the portfolio's **verification and evaluation layer**. It models the evidence chain explicitly instead of treating an LLM response as proof.
 
 ```text
 Claim
@@ -70,30 +55,23 @@ Evidence Clusters
   ↓
 Deterministic Judge
   ↓
-VERIFIED · SUPPORTED · PARTIALLY_SUPPORTED
-CONFLICTING · REFUTED · UNVERIFIED
-  ↓
-Auditable verdict
+Auditable Verdict
 ```
 
-**F1 evaluation evidence**
+**Evidence**
 
-```text
-Primary evaluated result     76.67%
-Additional evaluated result  66.67%
-Evaluation scenario result   33.33%
-Historical baseline           43.33%
-```
+- Golden v0: **34 cases · 52 documents · SHA-256 manifest**
+- F1 evaluation evidence: **76.67% · 66.67% · 33.33%**
+- Historical majority-class baseline: **43.33%**
+- Deterministic Judge: **6/6 fixtures passing**
+- CI: **Python 3.11 · 3.12 · 3.13**
+- Ruff · mypy · pytest · CodeQL · workflow-lint
 
-The **43.33%** figure is retained as the historical majority-class baseline; it is not presented as the current F1 result.
+**Evaluation classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
 
-**Scenario classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
-
-**Why it matters:** ATTRACTOR turns citation verification into an explicit engineering problem with reproducible evaluation, deterministic judgment and auditable evidence chains — rather than relying on an opaque LLM-as-judge pattern.
+**Core principle:** **LLM ≠ Judge.** Model output may provide evidence or hypotheses; the final verification state is determined by explicit, auditable rules.
 
 ---
-
-<div align="center">
 
 ## 02 · AYORAI AI Shield
 ### Deterministic runtime defense for autonomous AI agents
@@ -209,36 +187,34 @@ Public-facing intelligence hub combining automated ingestion, structured data, A
 
 ---
 
-# 🧭 Portfolio Architecture
+# Portfolio Architecture
 
-The projects are not isolated demos. Together they form an engineering stack:
+The projects form a layered engineering portfolio rather than a collection of unrelated repositories.
 
 ```text
-                    AYORAI · APPLIED INTELLIGENCE
-                              │
-             ┌────────────────┼────────────────┐
-             │                │                │
-        Intelligence      Agentic AI       Data / Docs
-             │                │                │
-      Global Tech       AYORAI / AyorGraph   RAG
-         News           AgentHound           Doc Intelligence
-                          MCP-Sentinel       Data Pipelines
-                          AI Shield           Financial Control
-                              │
-                              ↓
-                     Security + Governance
-                              │
-                              ↓
-                     Authorization / Policy
-                              │
-                              ↓
-                         Execution
-                              │
-                              ↓
-                    Audit / Observability
+                 AYORAI · APPLIED INTELLIGENCE
+                            │
+          ┌─────────────────┼─────────────────┐
+          │                 │                 │
+      AI / RAG         Agentic Systems     Data / Docs
+          │                 │                 │
+   Global Tech News    AYORAI / AyorGraph   RAG
+   Document AI         AgentHound           Data Pipelines
+                       MCP-Sentinel         Financial Control
+                       AI Shield
+          │                 │                 │
+          └─────────────────┼─────────────────┘
+                            ↓
+                  Security + Governance
+                            ↓
+                    Authorization / Policy
+                            ↓
+                        Execution
+                            ↓
+                 Audit / Observability
 ```
 
-### Engineering boundary
+The recurring architectural boundary is:
 
 ```text
 Reasoning
@@ -248,11 +224,11 @@ Authorization
 Execution
 ```
 
-That separation is the central design pattern across the AI Safety projects.
+This separation is the foundation of the AI Safety work.
 
 ---
 
-# 🔬 Engineering Standards
+# Engineering Standards
 
 Every serious project is progressively evaluated against:
 
@@ -270,7 +246,7 @@ Every serious project is progressively evaluated against:
 
 ---
 
-# 🧰 Technical Focus
+# Technical Stack
 
 **AI Engineering**  
 Python · LLMs · Agents · RAG · Generative AI · NLP · Vision AI
@@ -278,24 +254,18 @@ Python · LLMs · Agents · RAG · Generative AI · NLP · Vision AI
 **AI Safety & Security**  
 Policy Engines · Tool Authorization · Least Privilege · MCP Security · Threat Modeling · Adversarial Evaluation · Auditability
 
-**Data Engineering**  
-SQL · pandas · NumPy · ETL / ELT · Data Quality · Power BI
+**Data & Document Intelligence**  
+SQL · pandas · NumPy · ETL/ELT · Data Quality · Power BI · OCR · OpenCV · Tesseract · PDF Processing
 
-**Backend & Systems**  
-FastAPI · REST · APIs · JSON · Docker
+**Backend & Infrastructure**  
+FastAPI · REST · APIs · JSON · Docker · AWS · Local LLMs · Private AI
 
-**Document Intelligence**  
-OCR · OpenCV · Tesseract · PDF Processing
-
-**Engineering & DevSecOps**  
-Git · GitHub Actions · pytest · Ruff · Bandit · Dependency Auditing · CI/CD
-
-**AI Infrastructure**  
-Local LLMs · Private AI · AWS · Observability
+**Engineering**  
+Git · GitHub Actions · pytest · Ruff · mypy · Bandit · Dependency Auditing · CI/CD · Observability
 
 ---
 
-# 🌐 Portfolio
+# Portfolio
 
 **AYORAI · Applied Intelligence**  
 https://ayorinha.github.io/global-tech-news-ai/
