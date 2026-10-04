@@ -29,7 +29,7 @@ The work spans agentic systems, RAG, MCP, document intelligence, data pipelines 
 
 # Featured Projects
 
-## 01 · Global Tech News AI
+## 02 · Global Tech News AI
 ### Public technology intelligence platform
 
 [Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
@@ -40,7 +40,7 @@ A public-facing intelligence platform combining automated technology ingestion, 
 
 ---
 
-## 02 · AYORAI ATTRACTOR
+## 01 · AYORAI ATTRACTOR
 ### Evidence-first AI verification
 
 [Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
@@ -95,16 +95,15 @@ ATTRACTOR is designed for scenarios where **traceability, integrity, security an
 
 It can support governance and validation processes involving evidence, provenance and reproducibility. It **does not claim regulatory compliance by itself**.
 
-Relevant Brazilian references include the **LGPD (Law No. 13,709/2018)** and, for covered institutions, **CMN Resolution No. 4,893/2021**, in its current form.
+Relevant Brazilian reference: the **LGPD (Law No. 13,709/2018)**. The architecture is also designed to support controls informed by **normas de reguladores do sistema financeiro e do mercado de capitais**, without asserting regulatory compliance by itself.
 
 ### Experimental evidence
 
-- Golden v0: **34 cases · 52 documents · SHA-256 manifest**
-- F1 evaluation evidence: **76.67% · 66.67% · 33.33%**
-- Historical majority-class baseline: **43.33%**
-- Deterministic Judge: **6/6 fixtures passing**
-- CI: **Python 3.11 · 3.12 · 3.13**
-- Ruff · mypy · pytest · CodeQL · workflow-lint
+- Golden v0: **34 cases · 52 documents · SHA-256 manifest** (development/evaluation set)
+- F1 evaluation: **A 76.67% · B 66.67% · C 33.33%** on Golden v0.1; **43.33%** frozen majority baseline
+- Deterministic Judge: **6/6 public smoke fixtures passing**
+- CI: **Python 3.11 · 3.12 · 3.13** with Ruff, mypy, pytest, CodeQL and workflow-lint
+- Release: **v0.3.0** · DOI: **10.5281/zenodo.23125083**
 
 **Evaluation classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
 
@@ -142,33 +141,27 @@ Provenance / Audit
 
 ---
 
----
-
 # Portfolio Architecture
 
-The projects form a layered engineering portfolio:
+The three featured projects form a compact applied-AI portfolio:
 
 ```text
-                 AYORAI · APPLIED INTELLIGENCE
-                            │
-          ┌─────────────────┼─────────────────┐
-          │                 │                 │
-     Intelligence       Agentic AI       Data / Docs
-          │                 │                 │
-   Global Tech News    AYORAI / AyorGraph   RAG
-   ATTRACTOR           AgentHound           Data Pipelines
-                       MCP-Sentinel         Financial Control
-                       AI Shield
-          │                 │                 │
-          └─────────────────┼─────────────────┘
-                            ↓
-                  Security + Governance
-                            ↓
-                  Authorization / Policy
-                            ↓
-                        Execution
-                            ↓
-                 Audit / Observability
+             AYORAI · APPLIED INTELLIGENCE
+                         │
+       ┌─────────────────┼─────────────────┐
+       │                 │                 │
+ Global Tech News   AYORAI ATTRACTOR   AYORAI AI Shield
+ Intelligence       Evidence-first     Runtime defense
+       │             verification            │
+       └─────────────────┼─────────────────┘
+                         ↓
+              Security + Governance
+                         ↓
+             Authorization / Policy
+                         ↓
+                     Execution
+                         ↓
+              Audit / Observability
 ```
 
 The recurring architectural boundary is:
