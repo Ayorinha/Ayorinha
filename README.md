@@ -21,7 +21,7 @@ My portfolio is organized around one principle:
 
 ## 🏆 Engineering Evidence
 
-**Verified engineering evidence:** AYORAI ATTRACTOR — CI green on Python 3.11–3.13 · coverage ratchet verified at 73% · strict typing on the evidence core · frozen golden set (34 cases, 52 documents, SHA-256 manifest) · honest baseline published at 43.33% (equal to the majority-class baseline).
+**Verified engineering evidence:** AYORAI ATTRACTOR — F1 evaluation evidence at **76.67% / 66.67% / 33.33%**, with the historical **43.33%** majority-class baseline explicitly retained for comparison · CI on Python 3.11–3.13 · coverage ratchet verified at 73% · strict typing on the evidence core · frozen golden set (34 cases, 52 documents, SHA-256 manifest).
 
 **Primary engineering themes:** AI Safety · Agent Security · Agentic Systems · RAG · MCP · Document Intelligence · Automation · Data Engineering
 
@@ -48,10 +48,12 @@ This profile intentionally surfaces the projects that best demonstrate **archite
 
 - Golden v0 frozen: **34 cases · 52 documents**
 - Frozen SHA-256 manifest
+- F1 evaluation evidence: **76.67% / 66.67% / 33.33%**
+- Historical majority-class baseline: **43.33%**
+- Scenario classification: **A = EVAL_ONLY · B = Commercial Candidate**
 - Deterministic Judge: **6/6 fixtures passing**
 - CI: **Python 3.11 · 3.12 · 3.13**
 - Ruff + mypy + pytest + CodeQL + workflow-lint
-- Majority baseline: **43.33%**, explicitly reported rather than hidden
 
 **Architecture**
 
@@ -62,7 +64,9 @@ Evidence
   ↓
 Stance
   ↓
-Clusters / Provenance
+Provenance
+  ↓
+Evidence Clusters
   ↓
 Deterministic Judge
   ↓
@@ -72,7 +76,20 @@ CONFLICTING · REFUTED · UNVERIFIED
 Auditable verdict
 ```
 
-**Why it matters:** ATTRACTOR turns citation verification into an explicit engineering problem with reproducible evaluation, rather than relying on an opaque LLM-as-judge pattern.
+**F1 evaluation evidence**
+
+```text
+Primary evaluated result     76.67%
+Additional evaluated result  66.67%
+Evaluation scenario result   33.33%
+Historical baseline           43.33%
+```
+
+The **43.33%** figure is retained as the historical majority-class baseline; it is not presented as the current F1 result.
+
+**Scenario classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
+
+**Why it matters:** ATTRACTOR turns citation verification into an explicit engineering problem with reproducible evaluation, deterministic judgment and auditable evidence chains — rather than relying on an opaque LLM-as-judge pattern.
 
 ---
 
