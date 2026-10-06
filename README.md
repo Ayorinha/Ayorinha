@@ -29,7 +29,7 @@ The work spans agentic systems, RAG, MCP, document intelligence, data pipelines 
 
 # Featured Projects
 
-## 01 · AYORAI ATTRACTOR
+## 02 · AYORAI ATTRACTOR
 ### Evidence-first AI verification
 
 [Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
@@ -104,7 +104,7 @@ Relevant Brazilian reference: the **LGPD (Law No. 13,709/2018)**. The architectu
 
 ---
 
-## 02 · Global Tech News AI
+## 01 · Global Tech News AI
 ### Public technology intelligence platform
 
 [Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
@@ -118,7 +118,7 @@ A public-facing intelligence platform combining automated technology ingestion, 
 ## 03 · AYORAI AI Shield
 ### Deterministic runtime defense for autonomous AI agents
 
-[Repository](https://github.com/Ayorinha/ayorai-vision-intelligence)
+[Repository](https://github.com/Ayorinha/ayorai)
 
 A security boundary where model intent does not automatically become executable authority.
 
