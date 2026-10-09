@@ -29,6 +29,17 @@ The work spans agentic systems, RAG, MCP, document intelligence, data pipelines 
 
 # Featured Projects
 
+## 01 · Global Tech News AI
+### Public technology intelligence platform
+
+[Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
+
+A public-facing intelligence platform combining automated technology ingestion, structured data, AI tooling intelligence and an AI Safety laboratory.
+
+**Role in the portfolio:** public intelligence and research layer.
+
+---
+
 ## 02 · AYORAI ATTRACTOR
 ### Evidence-first AI verification
 
@@ -101,17 +112,6 @@ Relevant Brazilian reference: the **LGPD (Law No. 13,709/2018)**. The architectu
 **Evaluation classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
 
 > **Do not trust the AI response alone. Verify the evidence.**
-
----
-
-## 01 · Global Tech News AI
-### Public technology intelligence platform
-
-[Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
-
-A public-facing intelligence platform combining automated technology ingestion, structured data, AI tooling intelligence and an AI Safety laboratory.
-
-**Role in the portfolio:** public intelligence and research layer.
 
 ---
 
