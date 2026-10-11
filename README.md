@@ -41,6 +41,8 @@ A public-facing intelligence platform combining automated technology ingestion, 
 ---
 
 ## 02 · AYORAI ATTRACTOR
+
+<a href="https://github.com/Ayorinha/ayorai-opensearch"><img src="https://raw.githubusercontent.com/Ayorinha/ayorai-opensearch/main/docs/assets/brand/ayorai-attractor-banner.png" alt="AYORAI ATTRACTOR" width="100%"></a>
 ### Evidence-first AI verification
 
 [Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
