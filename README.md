@@ -105,12 +105,20 @@ Relevant Brazilian reference: the **LGPD (Law No. 13,709/2018)**. The architectu
 ### Experimental evidence
 
 - Golden v0: **34 cases · 52 documents · SHA-256 manifest** (development/evaluation set)
-- F1 evaluation on Golden v0.1 (30 claims, frozen majority baseline 43.33%):
-- Path B (commercial candidate): **66.67%**, exact binomial p = 0.0085 vs. baseline · Path A (research-only, EVAL_ONLY license): 76.67% · Path C (rules): 33.33%
-- Development sets use English documents; Portuguese performance will be measured on the hidden Golden v1
-- Deterministic Judge: **6/6 public smoke fixtures passing**
-- CI: **Python 3.11 · 3.12 · 3.13** with Ruff, mypy, pytest, CodeQL and workflow-lint
-- Release: **v0.3.0** · DOI: **10.5281/zenodo.23125083**
+- F1 global-verdict accuracy, always reported side by side (n = 30 each):
+
+| Path | Golden v0 | Golden v0.1 |
+|---|---:|---:|
+| A (EVAL_ONLY, research-only) | 40.00% | 76.67% |
+| B (commercial candidate) | 43.33% | 66.67% |
+| C (rules) | 26.67% | 33.33% |
+| Majority baseline | 43.33% | 43.33% |
+
+- On Golden v0, Path B equals the majority baseline. Golden v0.1 was rewritten after per-case results were observed, so it is **not** independent confirmatory evidence.
+- Development sets use synthetic English documents; Portuguese performance is reserved for the hidden Golden v1.
+- Judge 2.0 (deterministic adjudication, canonical output, rule trace and generated traceability) shipped in v0.5.0.
+- CI: **Python 3.11 · 3.12 · 3.13** with Ruff, mypy, pytest, CodeQL and workflow-lint; `main` is protected by required checks.
+- Release: **v0.5.0** · DOI: **10.5281/zenodo.23344005** · all versions: **10.5281/zenodo.23125082**
 
 **Evaluation classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
 
