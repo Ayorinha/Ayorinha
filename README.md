@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>AI ENGINEER · APPLIED AI · AI SAFETY</strong><br/>
-  <sub>Agentic AI · RAG · MCP · Security · Document Intelligence · Data Engineering</sub>
+  <sub>Agentic AI · Evidence Verification · RAG · MCP · Security · Document Intelligence · Data Engineering</sub>
 </p>
 
 <p align="center">
@@ -11,254 +11,130 @@
   <a href="https://ayorinha.github.io/global-tech-news-ai/">AYORAI · Applied Intelligence</a>
 </p>
 
-> I build AI systems where **reasoning, authority and execution are explicit engineering boundaries**.
+> I build AI systems where **reasoning, authorization and execution are explicit engineering boundaries**.
 
-**Intelligence ≠ Authorization ≠ Execution**
-
----
-
-## Engineering Focus
-
-My portfolio focuses on **Applied AI, AI Engineering and AI Safety**, with emphasis on:
-
-**Architecture · Security · Evaluation · Reproducibility · Observability · Governance**
-
-The work spans agentic systems, RAG, MCP, document intelligence, data pipelines and deterministic controls for AI-assisted execution.
+<p align="center"><strong>INTELLIGENCE ≠ AUTHORIZATION ≠ EXECUTION</strong></p>
 
 ---
 
-# Featured Projects
+## Engineering focus
 
-## 01 · Global Tech News AI
-### Public technology intelligence platform
+My work sits at the intersection of **AI Engineering, Applied AI and AI Safety**. I focus on systems that can be inspected, evaluated and operated with explicit controls:
 
-[Repository](https://github.com/Ayorinha/global-tech-news-ai) · [Live platform](https://ayorinha.github.io/global-tech-news-ai/)
+- Agentic systems, tool use and MCP security
+- Evidence-grounded verification, RAG and document intelligence
+- Deterministic policy and decision boundaries
+- Evaluation methodology, reproducibility and statistical calibration
+- Data engineering, observability and audit trails
 
-A public-facing intelligence platform combining automated technology ingestion, structured data, AI tooling intelligence and an AI Safety laboratory.
+I favor measurable evidence over unsupported capability claims: implemented features, experimental results, limitations and open work are documented separately.
 
-**Role in the portfolio:** public intelligence and research layer.
+## Featured projects
 
----
+### 01 · AYORAI ATTRACTOR — Evidence-first AI verification
 
-## 02 · AYORAI ATTRACTOR
+<p align="center">
+  <a href="https://github.com/Ayorinha/ayorai-opensearch"><img src="https://raw.githubusercontent.com/Ayorinha/ayorai-opensearch/main/docs/assets/brand/ayorai-attractor-banner.png" alt="AYORAI ATTRACTOR" width="100%"></a>
+</p>
 
-<a href="https://github.com/Ayorinha/ayorai-opensearch"><img src="https://raw.githubusercontent.com/Ayorinha/ayorai-opensearch/main/docs/assets/brand/ayorai-attractor-banner.png" alt="AYORAI ATTRACTOR" width="100%"></a>
+**[Repository](https://github.com/Ayorinha/ayorai-opensearch)** · **[Technical status](https://github.com/Ayorinha/ayorai-opensearch/blob/main/docs/STATUS.md)** · **[Documentation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs)** · **[Public site](https://ayorinha.github.io/ayorai-opensearch/)**
 
-### Evidence-first AI verification
+An open-source verification layer designed to inspect AI-generated claims against their cited evidence, preserve provenance and produce reproducible, rule-governed verdicts.
 
-[Repository](https://github.com/Ayorinha/ayorai-opensearch) · [Evaluation](https://github.com/Ayorinha/ayorai-opensearch/tree/main/docs/eval)
-
-[For partners and investors](https://github.com/Ayorinha/ayorai-opensearch/blob/main/docs/INVESTIDORES.md)
-
-> **AI can produce an answer. ATTRACTOR asks: where is the evidence?**
-
-**ATTRACTOR** is an evidence-verification layer for AI systems that transforms claims into **traceable, reproducible and auditable** verification results.
+**Core architecture:** models may assist with evidence discovery and interpretation; a deterministic Judge applies explicit, versioned rules to determine the final verdict. The system separates analysis from decision authority.
 
 ```text
-                    AI / Human Claim
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │   Evidence  │
-                    └──────┬──────┘
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │    Stance   │
-                    └──────┬──────┘
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │ Provenance  │
-                    └──────┬──────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │ Evidence Clusters │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │ Deterministic     │
-                 │      Judge        │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │   Verdict   │
-                    └──────┬──────┘
-                           │
-                           ▼
-                    Auditable Record
+AI / Human Claim
+      ↓
+Evidence + Provenance
+      ↓
+Evidence Analysis
+      ↓
+Deterministic Judge
+      ↓
+Versioned Verdict
+      ↓
+Auditable Record
 ```
 
-**Core principle:** **LLM ≠ Judge.** The model may help discover or interpret evidence, but final verification is determined by **explicit, auditable rules**.
+#### Latest published release and experimental evidence
 
-### Governance and regulated environments
+- **Release:** v0.7.0 · **Version DOI:** [10.5281/zenodo.24045951](https://doi.org/10.5281/zenodo.24045951)
+- **Concept DOI:** [10.5281/zenodo.23125082](https://doi.org/10.5281/zenodo.23125082)
+- **Calibration V2 DEV:** 30,420 examples across 11 cohorts in the English-language LLM-AggreFact dataset.
+- **Balanced accuracy, cross-fitted (DEV-A):** FactCG **74.68%** (selected), MiniCheck **72.87%**, mDeBERTa **62.57%**.
+- **FactCG probabilistic metrics (DEV-A):** AUROC **0.8650**, AUPRC **0.9454**, Brier **0.1168**, ECE **0.0054**.
 
-ATTRACTOR is designed for scenarios where **traceability, integrity, security and auditability** matter, with an initial focus on Brazilian telecommunications regulation (Anatel RGC) and LGPD-aware workflows.
+These are development-partition results, not TEST, production performance, an external validation or a ranking. The original v0.7.0 LTT rule reported 0/11 cohorts certified. A post-hoc re-aggregation under Amendment 2 found four cohorts passing the amended procedure in DEV (RAGTruth, ClaimVerify, Lfqa and Reveal); this is explicitly exploratory, not confirmatory certification. Seven cohorts did not reject the null at their first tested threshold. The follow-up power analysis proposes (but does not adopt) a 367-accepted-sample operational floor for discussion in v0.8; this would make some smaller cohorts untestable by design. Confirmatory certification remains reserved for untouched TEST data under a rule frozen in advance.
 
-It can support governance and validation processes involving evidence, provenance and reproducibility. It **does not claim regulatory compliance by itself**.
+**Scientific and domain limits:** no Portuguese benchmark result is published; the Brazilian RGC protocol remains in development and is not frozen. The project does not claim certification, guaranteed hallucination detection or regulatory compliance by itself. Third-party models and datasets are credited in the [benchmark report](https://github.com/Ayorinha/ayorai-opensearch/tree/main/reports/benchmarks/2026-11-07-dev-calibration-v2). The subsequent [Amendment 2 exploratory report and LTT power analysis](https://github.com/Ayorinha/ayorai-opensearch/tree/main/reports/benchmarks/2026-11-08-phase1b-amendment-2-exploratory) documents the post-hoc re-aggregation and the proposed v0.8 sample-size floor.
 
-Relevant Brazilian reference: the **LGPD (Law No. 13,709/2018)**. The architecture is also designed to support controls informed by **rules issued by financial-system and capital-market regulators**, without asserting regulatory compliance by itself.
+### 02 · AYORAI AI Shield — Runtime defense for AI agents
 
-### Experimental evidence
+**[Repository](https://github.com/Ayorinha/ayorai)**
 
-- Golden v0: **34 cases · 52 documents · SHA-256 manifest** (development/evaluation set)
-- F1 global-verdict accuracy, always reported side by side (n = 30 each):
+A security-oriented project exploring deterministic boundaries between model intent and executable authority, with focus on least privilege, policy enforcement, MCP integrity, runtime containment and auditability.
 
-| Path | Golden v0 | Golden v0.1 |
-|---|---:|---:|
-| A (EVAL_ONLY, research-only) | 40.00% | 76.67% |
-| B (commercial candidate) | 43.33% | 66.67% |
-| C (rules) | 26.67% | 33.33% |
-| Majority baseline | 43.33% | 43.33% |
+### 03 · Global Tech News AI — Applied technology intelligence
 
-- On Golden v0, Path B equals the majority baseline. Golden v0.1 was rewritten after per-case results were observed, so it is **not** independent confirmatory evidence.
-- Development sets use synthetic English documents; Portuguese performance is reserved for the hidden Golden v1.
-- Judge 2.0 (deterministic adjudication, canonical output, rule trace and generated traceability) shipped in v0.5.0.
-- CI: **Python 3.11 · 3.12 · 3.13** with Ruff, mypy, pytest, CodeQL and workflow-lint; `main` is protected by required checks.
-- Release: **v0.5.0** · DOI: **10.5281/zenodo.23344005** · all versions: **10.5281/zenodo.23125082**
+**[Repository](https://github.com/Ayorinha/global-tech-news-ai)** · **[Live platform](https://ayorinha.github.io/global-tech-news-ai/)**
 
-**Evaluation classification:** `A = EVAL_ONLY` · `B = Commercial Candidate`
-
-> **Do not trust the AI response alone. Verify the evidence.**
+A public technology intelligence platform combining automated information ingestion, structured data, AI tooling intelligence and an AI Safety research area.
 
 ---
 
-## 03 · AYORAI AI Shield
-### Deterministic runtime defense for autonomous AI agents
+## Engineering principles
 
-[Repository](https://github.com/Ayorinha/ayorai)
-
-A security boundary where model intent does not automatically become executable authority.
-
-```text
-Agent
-  ↓
-Identity / Delegation
-  ↓
-MCP Tool Integrity
-  ↓
-Runtime Containment
-  ↓
-Data-flow Guard
-  ↓
-Policy + Authorization
-  ↓
-Transaction / Egress Governance
-  ↓
-Tool Execution
-  ↓
-Provenance / Audit
-```
-
-**Focus:** least privilege · fail-closed controls · MCP security · threat modeling · adversarial evaluation · auditability.
-
----
-
-# Portfolio Architecture
-
-The three featured projects form a compact applied-AI portfolio:
-
-```text
-             AYORAI · APPLIED INTELLIGENCE
-                         │
-       ┌─────────────────┼─────────────────┐
-       │                 │                 │
- Global Tech News   AYORAI ATTRACTOR   AYORAI AI Shield
- Intelligence       Evidence-first     Runtime defense
-       │             verification            │
-       └─────────────────┼─────────────────┘
-                         ↓
-              Security + Governance
-                         ↓
-             Authorization / Policy
-                         ↓
-                     Execution
-                         ↓
-              Audit / Observability
-```
-
-The recurring architectural boundary is:
-
-```text
-Reasoning
-   ≠
-Authorization
-   ≠
-Execution
-```
-
----
-
-# Engineering Standards
-
-| Layer | Evidence |
+| Area | Approach |
 |---|---|
-| Architecture | Explicit components, boundaries and data flow |
-| Security | Threat models, least privilege and fail-closed controls |
-| Quality | Tests, linting and static analysis |
-| Reproducibility | Deterministic examples and documented setup |
-| Evaluation | Regression tests and measurable validation |
-| Observability | Logs, traces, metrics or audit evidence |
-| Delivery | CI/CD and automated quality gates |
-| Documentation | Architecture, assumptions, limitations and roadmap |
-| Privacy | Public, synthetic or anonymized data |
+| Architecture | Explicit components, contracts and trust boundaries |
+| AI safety | Model output is not authorization |
+| Security | Least privilege, fail-closed controls and threat modeling |
+| Evaluation | Reproducible datasets, baselines and regression tests |
+| Statistics | Pre-registration, partition discipline and declared uncertainty |
+| Observability | Traceability, provenance and audit records |
+| Delivery | CI, static analysis and documented release artifacts |
+| Privacy | Public, synthetic or appropriately anonymized data |
 
----
+## Technical stack
 
-# Technical Stack
-
-**AI Engineering**  
-Python · LLMs · Agents · RAG · Generative AI · NLP · Vision AI
+**AI & ML**  
+Python · LLMs · Agents · RAG · NLP · Document Intelligence · Model Evaluation · Calibration
 
 **AI Safety & Security**  
-Policy Engines · Tool Authorization · Least Privilege · MCP Security · Threat Modeling · Adversarial Evaluation · Auditability
+MCP · Tool Authorization · Policy Engines · Least Privilege · Threat Modeling · Adversarial Evaluation · Auditability
 
-**Data & Document Intelligence**  
-SQL · pandas · NumPy · ETL/ELT · Data Quality · Power BI · OCR · OpenCV · Tesseract · PDF Processing
+**Data Engineering**  
+SQL · pandas · NumPy · ETL/ELT · Data Quality · Power BI
 
 **Backend & Infrastructure**  
-FastAPI · REST · APIs · JSON · Docker · AWS · Local LLMs · Private AI
+FastAPI · REST · Docker · AWS · Local LLMs · Private AI
 
-**Engineering**  
-Git · GitHub Actions · pytest · Ruff · mypy · Bandit · Dependency Auditing · CI/CD · Observability
+**Engineering & Quality**  
+Git · GitHub Actions · pytest · Ruff · mypy · CodeQL · CI/CD · Reproducibility
 
----
+## Professional background
 
-# Links
+I bring experience across data, software, document-centric workflows and applied AI, connecting engineering execution with process reliability, traceability and operational constraints.
 
-**AYORAI · Applied Intelligence**  
-https://ayorinha.github.io/global-tech-news-ai/
+My current technical interests include evidence-grounded AI, agentic systems, security boundaries, evaluation science and responsible deployment in environments where decisions must be explainable and auditable.
 
-**GitHub**  
-https://github.com/Ayorinha
+## Education
 
-**LinkedIn**  
-https://www.linkedin.com/in/anderson-leon-ayora
+- **MBA — Data Science, Analytics & Artificial Intelligence, USP/Esalq** · 2026–2027
+- **Technology in Database, FIAP** · Completed 2022
 
----
+## Links
 
-# Education
-
-**MBA — Data Science, Analytics & Artificial Intelligence — USP/Esalq**  
-2026–2027
-
-**Technology in Database — FIAP**  
-Completed · 2022
+- **GitHub:** https://github.com/Ayorinha
+- **LinkedIn:** https://www.linkedin.com/in/anderson-leon-ayora
+- **AYORAI · Applied Intelligence:** https://ayorinha.github.io/global-tech-news-ai/
 
 ---
-
-## License
-
-This portfolio and its original source code are released under the **MIT License**.
-
-[View MIT License](LICENSE)
-
-Copyright © 2026 Anderson Leon Ayora
 
 <p align="center">
   <strong>AYORAI · Applied Intelligence</strong><br/>
-  <sub>Applied AI · AI Engineering · AI Safety</sub>
+  <sub>Applied AI · AI Engineering · AI Safety · Evidence · Governance</sub>
 </p>
+
+<p align="center"><sub>Copyright © 2026 Anderson Leon Ayora</sub></p>
