@@ -31,7 +31,14 @@ I favor measurable evidence over unsupported capability claims: implemented feat
 
 ## Featured projects
 
-### 01 · AYORAI ATTRACTOR — Evidence-first AI verification
+### 01 · Global Tech News AI — Applied technology intelligence
+
+**[Repository](https://github.com/Ayorinha/global-tech-news-ai)** · **[Live platform](https://ayorinha.github.io/global-tech-news-ai/)**
+
+A public technology intelligence platform combining automated information ingestion, structured data, AI tooling intelligence and an AI Safety research area.
+
+
+### 02 · AYORAI ATTRACTOR — Evidence-first AI verification
 
 <p align="center">
   <a href="https://github.com/Ayorinha/ayorai-opensearch"><img src="https://raw.githubusercontent.com/Ayorinha/ayorai-opensearch/main/docs/assets/brand/ayorai-attractor-banner.png" alt="AYORAI ATTRACTOR" width="100%"></a>
@@ -69,17 +76,14 @@ These are development-partition results, not TEST, production performance, an ex
 
 **Scientific and domain limits:** no Portuguese benchmark result is published; the Brazilian RGC protocol remains in development and is not frozen. The project does not claim certification, guaranteed hallucination detection or regulatory compliance by itself. Third-party models and datasets are credited in the [benchmark report](https://github.com/Ayorinha/ayorai-opensearch/tree/main/reports/benchmarks/2026-11-07-dev-calibration-v2). The subsequent [Amendment 2 exploratory report and LTT power analysis](https://github.com/Ayorinha/ayorai-opensearch/tree/main/reports/benchmarks/2026-11-08-phase1b-amendment-2-exploratory) documents the post-hoc re-aggregation and the proposed v0.8 sample-size floor.
 
-### 02 · AYORAI AI Shield — Runtime defense for AI agents
+
+
+### 03 · AYORAI AI Shield — Runtime defense for AI agents
 
 **[Repository](https://github.com/Ayorinha/ayorai)**
 
 A security-oriented project exploring deterministic boundaries between model intent and executable authority, with focus on least privilege, policy enforcement, MCP integrity, runtime containment and auditability.
 
-### 03 · Global Tech News AI — Applied technology intelligence
-
-**[Repository](https://github.com/Ayorinha/global-tech-news-ai)** · **[Live platform](https://ayorinha.github.io/global-tech-news-ai/)**
-
-A public technology intelligence platform combining automated information ingestion, structured data, AI tooling intelligence and an AI Safety research area.
 
 ---
 
